@@ -1,0 +1,59 @@
+{
+  "schemaVersion": 1,
+  "provider": "Korean Wikipedia / MediaWiki Action API",
+  "retrievalMethod": "Verified Action API responses through available web fetch service; execution shell proxy denied direct fetch",
+  "normalization": "Wikipedia links/templates/image markup removed; source prose retained, not a narration script",
+  "sources": [
+    {
+      "objectId": "orion",
+      "pageId": 8613,
+      "title": "오리온자리",
+      "revisionId": 41081776,
+      "section": "신화와 역사",
+      "sectionIndex": "5",
+      "url": "https://ko.wikipedia.org/wiki/%EC%98%A4%EB%A6%AC%EC%98%A8%EC%9E%90%EB%A6%AC#%EC%8B%A0%ED%99%94%EC%99%80_%EC%97%AD%EC%82%AC",
+      "revisionUrl": "https://ko.wikipedia.org/w/index.php?title=%EC%98%A4%EB%A6%AC%EC%98%A8%EC%9E%90%EB%A6%AC&oldid=41081776#%EC%8B%A0%ED%99%94%EC%99%80_%EC%97%AD%EC%82%AC",
+      "historyUrl": "https://ko.wikipedia.org/w/index.php?title=%EC%98%A4%EB%A6%AC%EC%98%A8%EC%9E%90%EB%A6%AC&action=history",
+      "apiUrl": "https://ko.wikipedia.org/w/api.php?action=parse&oldid=41081776&section=5&prop=wikitext&format=json&formatversion=2&origin=*",
+      "fetchedAt": "2026-11-14T08:03:33Z",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "attribution": "한국어 위키백과 「오리온자리」 기여자들",
+      "sourceText": "신화와 역사\n\n오리온자리의 형태는 약 150만 년 전부터 갖추어졌다. 오리온자리의 별들은 상대적으로 고유운동의 속도가 느려 1 ~ 2백만 년 뒤까지 여전히 남아 있을 것으로 여겨진다.\n\n오리온자리는 밝고 특이하여, 그 형태가 여러 문명에서 다양하게 인식되었다.\n• 수메리아에서는, 양치기와 양의 모습으로 여겨졌다.\n• 고대 이집트에서는, 죽음과 하계의 신인 오시리스와 연관되었다. 기자의 피라밋이 오리온의 허리띠를 그려 놓은 것이라는 주장이 있다.\n• 동아시아의 별자리에서는, 28수의 자수(觜宿)와 삼수(參宿)에 해당되며, 중앙의 허리띠는 '세 명의 장군(三將)'으로 해석된다.\n• 오리온의 허리띠는 네덜란드, 프랑스, 남아프리카공화국 등의 여러 나라에서 '세 명의 왕'으로 불렸다.\n• 기독교 선교 이전의 스칸디나비아에서는 중앙의 허리띠는 '프리가(Frigg)의 실패'로 여겨지기도 하였다.\n• 핀란드 신화에서는, 오리온자리는 'scythe of Väinämöinen'으로 불렀는데, 이는, 건초를 만드는 가을 하늘에서 볼 수 있었던 것에 유래되었다고 여겨진다.\n• 고대 아람(시리아)에서는 'Nephila'로 불렸고, 그 후손은 '네피림(Nephilim)'으로 알려졌다.\n• 오리온자리는 영국에서는 '호박'으로 불렸다.\n• 오스트레일리아에서는, 오리온의 허리띠와 칼은 '소스 냄비'로 불리는데, 남반구에서 보면 그 모양이 비슷하다.\n\n그리스 신화에는 오리온에 대한 여러 이야기가 전해진다. 바다의 신인 포세이돈의 아들이었다. 힘쎈 사냥꾼으로 인간세계에서 많은 이름을 알려졌던 오리온은 사냥의 여신이자 달의 여신인 아르테미스와 서로 사랑하던 사이였다. 그러나 아르테미스의 오빠인 태양의 신 아폴론은 이를 탐탁치 않게 여겼다. 오리온은 난폭한 성격을 가지고 있고, 인간은 신과 이루어 질 수 없는 존재라고 생각했기 때문이었다. 결국 아르테미스와 오리온이 결혼한다는 소식을 듣고 곤란하게 여긴 아폴론은 대지의 신에게 부탁해 오리온이 바다에 헤엄치고 있었던 그때 전갈을 보내어 독침으로 찔러 죽이려 했다. 아르테미스가 크게 반발하자 아폴론은 한 가지 제안을 한다. 오리온이 전갈로부터 살아남는다면 더 이상 두 사람의 사랑을 방해하지 않겠다는 것이다. 동생은 아폴론의 말을 믿지않자 스틱스강에 맹세까지 한다. 오리온은 전갈로부터 살아남았지만 싸움 도중 전갈에게 찔린 독침으로 인해 사망하게 된다. 그 후 아폴론에 의해 오리온과 전갈 모두를 하늘에 올려 별자리가 되게 하였는데, 오리온은 겨울 하늘 높은 곳에 위엄 있게 놓여 있으며, 전갈자리는 여름 하늘에 낮게 떠 곧장 서쪽으로 진다. 전갈자리는 오리온을 노리고 있고, 전갈은 또한 난폭해질 경우에 대비해 궁수자리에 의해 겨냥된다. 이는, 별자리의 위치에 따라 신화가 만들어진 것임을 의미할 가능성을 시사한다.\n\n이 외에도 오리온의 죽음에 대해서는 여신 아르테미스가 화살로 쏘았다는 이야기, 오리온이 플레이아데스를 쫓아다녔다는 이야기 등 다양한 설화가 존재한다.\n\n오리온의 명칭은 호라티우스의 송시, 호머의 오딧세이와 일리아드, 베르길리우스의 아에네아스의 서사시에도 언급되며, 성경에는 세 차례(욥기 9:9, 욥기 38:31, 아모스 5:8) 언급된다."
+    },
+    {
+      "objectId": "ursa-major",
+      "pageId": 22216,
+      "title": "큰곰자리",
+      "revisionId": 40597122,
+      "section": "신화",
+      "sectionIndex": "6",
+      "url": "https://ko.wikipedia.org/wiki/%ED%81%B0%EA%B3%B0%EC%9E%90%EB%A6%AC#%EC%8B%A0%ED%99%94",
+      "revisionUrl": "https://ko.wikipedia.org/w/index.php?title=%ED%81%B0%EA%B3%B0%EC%9E%90%EB%A6%AC&oldid=40597122#%EC%8B%A0%ED%99%94",
+      "historyUrl": "https://ko.wikipedia.org/w/index.php?title=%ED%81%B0%EA%B3%B0%EC%9E%90%EB%A6%AC&action=history",
+      "apiUrl": "https://ko.wikipedia.org/w/api.php?action=parse&oldid=40597122&section=6&prop=wikitext&format=json&formatversion=2&origin=*",
+      "fetchedAt": "2026-11-14T08:03:33Z",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "attribution": "한국어 위키백과 「큰곰자리」 기여자들",
+      "sourceText": "신화\n\n• 큰곰자리는 부근의 작은곰자리와 함께 그리스 신화의 칼리스토의 전설과 관련되어 있다. 제우스의 애인인 칼리스토가 제우스의 아내 헤라의 질투로 곰의 모습이 되었는데, 제우스가 이를 별자리로 만들었다는 것이다.\n\n• 인도 신화에서는 일곱 개의 별은 일곱 현자로 여겨지며, 별자리는 'Saptarshi Mandalam'으로 불린다.\n\n• 성경에도 큰곰자리가 언급된다. (욥기 9:9, 38:32)\n\n• 알리오스(Alioth), 미자르(Mizar), 알카이드(Alkaid)의 세 별은 그들의 어미를 따르는 새끼 또는 세 명의 사냥꾼으로 여겨지기도 하였다.\n\n• 이로쿼이 미국 원주민은 알리오스, 미자르, 알카이드의 세 별을 큰 곰을 쫓는 사냥꾼으로 해석하였다. 이들의 한 신화에 의하면, 첫 번째 사냥꾼(알리오스)는 활과 화살을 들고 곰을 때려눕히려 하고, 두 번째 사냥꾼(미자르)은 어깨에 곰을 요리할 큰 그릇을 갖고 있다. 세 번째 사냥꾼(알카이드)은 그릇에 불을 지필 장작을 나른다.\n\n• 버마인들은 큰곰자리 중 머리와 앞발 부분을 'Pucwan Tārā(바준 타자: 참새우, 새우, 게, 가재 등)'라 부른다.\n\n• 중동에서는 죽음을 다스리는 별무리라고 생각하였다. 사각형을 이루는 네 별이 관을 나타내고 손잡이에 해당하는 세 별은 관을 끌고 가는 사람으로 보았던 것이다. 그래서 어두운 밤에 북두칠성을 보면 소름이 오르기도 한다."
+    },
+    {
+      "objectId": "cassiopeia",
+      "pageId": 22151,
+      "title": "카시오페이아자리",
+      "revisionId": 40004560,
+      "section": "신화",
+      "sectionIndex": "5",
+      "url": "https://ko.wikipedia.org/wiki/%EC%B9%B4%EC%8B%9C%EC%98%A4%ED%8E%98%EC%9D%B4%EC%95%84%EC%9E%90%EB%A6%AC#%EC%8B%A0%ED%99%94",
+      "revisionUrl": "https://ko.wikipedia.org/w/index.php?title=%EC%B9%B4%EC%8B%9C%EC%98%A4%ED%8E%98%EC%9D%B4%EC%95%84%EC%9E%90%EB%A6%AC&oldid=40004560#%EC%8B%A0%ED%99%94",
+      "historyUrl": "https://ko.wikipedia.org/w/index.php?title=%EC%B9%B4%EC%8B%9C%EC%98%A4%ED%8E%98%EC%9D%B4%EC%95%84%EC%9E%90%EB%A6%AC&action=history",
+      "apiUrl": "https://ko.wikipedia.org/w/api.php?action=parse&oldid=40004560&section=5&prop=wikitext&format=json&formatversion=2&origin=*",
+      "fetchedAt": "2026-11-14T08:03:33Z",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "attribution": "한국어 위키백과 「카시오페이아자리」 기여자들",
+      "sourceText": "신화\n\n그리스 신화에서, 카시오페이아는 아이티오피아의 왕비였다. 안드로메다 공주의 어머니이다. 자랑을 좋아하는 왕비로, 딸 안드로메다와 바다의 정령 네레이데스의 미모를 비교한 일로 바다의 신 포세이돈이 노하여, 이티오피아에 큰 재해를 일으켰다. 신탁에서, 안드로메다를 괴물 고래에 산 제물로 바치면 포세이돈의 노여움이 풀릴 것이라고 하였고, 어쩔 수 없이 안드로메다를 해안에 사슬로 묶어 놓았다. 한편 메두사를 이기고 페가수스를 타고 그 위를 날아가던 용사 페르세우스가 위기에 처한 안드로메다를 괴물 고래로부터 구해준다.\n\n카시오페이아는 하늘에 올려져 별자리가 되었지만, 포세이돈이 그녀가 바다에 내려와 쉬는 것을 허락하지 않았고, 그래서 항상 하늘 위에서 계속 돌고 있다고도 한다./포세이돈이 노하여 의자째 던졌다는 유래도 있음\n\n북극성 주변의 세페우스자리·안드로메다자리·페르세우스자리·카시오페이아자리·페가수스자리·고래자리 등이 모두 그리스 신화 속에서 서로 연관되어 있는 사람과 괴물을 모델로 하고 있다."
+    }
+  ]
+}

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">별빛 드라이브</string>
+    <string name="load_failed">화면을 불러오지 못했습니다. 앱을 다시 열어 주세요.</string>
+    <string name="external_unavailable">연결할 지도 또는 브라우저 앱이 없습니다. 웹 버전에서 같은 링크를 이용할 수 있어요.</string>
+    <string name="download_web">이 파일은 웹 버전에서 내려받을 수 있습니다.</string>
+</resources>
+

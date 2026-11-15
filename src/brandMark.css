@@ -1,0 +1,12 @@
+.brand{min-height:56px}
+.brand .brand-mark{display:block;width:56px;height:48px;flex:none;color:#fff}
+@media(max-width:700px){
+ .brand{min-height:48px}
+ .brand .brand-mark{width:42px;height:36px}
+ .header-actions .language-button{white-space:nowrap;min-height:44px}
+}
+@media(max-width:360px){
+ .app .app-header,.app.large-text .app-header{padding-inline:10px;gap:6px}
+ .app .brand{padding-inline:0;gap:6px;font-size:11px;letter-spacing:.1em}
+ .brand .brand-mark{width:36px;height:32px}
+}

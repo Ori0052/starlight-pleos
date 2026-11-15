@@ -1,0 +1,25 @@
+{
+  "name": "starlight-pleos",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host 0.0.0.0",
+    "build": "tsc -b && vite build",
+    "check": "tsc -b",
+    "content:fetch": "node scripts/import-mythology.mjs",
+    "music:catalog": "node scripts/build-music-catalog.mjs",
+    "apk:build": "python3 android/scripts/build_release.py --output apk/starlight-pleos-release.apk"
+  },
+  "dependencies": {
+    "react": "19.3.0",
+    "react-dom": "19.3.0",
+    "lucide-react": "0.468.0"
+  },
+  "devDependencies": {
+    "@types/react": "19.3.0",
+    "@types/react-dom": "19.3.0",
+    "typescript": "5.9.3",
+    "vite": "7.3.6"
+  }
+}

@@ -1,0 +1,72 @@
+.sky-heading .story-library-open {pointer-events:auto;display:flex;align-items:center;gap:8px;margin-top:13px;padding:5px 0;min-height:44px;background:none;color:#b5c4d6;font-size:12px;text-align:start;}
+.sky-heading .story-library-open:hover {color:#64dcff;}
+.large-text .sky-heading .story-library-open {font-size:16px;}
+.story-library-guide {
+  --story-guide-muted: #b5c4d6;
+  --story-guide-text-size: 1rem;
+  font-size: var(--story-guide-text-size);
+  color: #f4f7ff;
+}
+.story-library-guide p {margin: 0; line-height: 1.85; overflow-wrap: anywhere;}
+.story-library-guide .story-guide-intro {max-width: 68ch; color: var(--story-guide-muted); margin-bottom: 24px;}
+.story-library-guide .story-guide-tabs {display: flex; gap: 8px; border-bottom: 1px solid #263a50; margin-bottom: 30px;}
+.story-library-guide .story-guide-tabs button {display: flex; align-items: center; justify-content: center; gap: 9px; flex: 1; min-height: 60px; padding: 12px 10px; border: 0; border-bottom: 3px solid transparent; background: none; color: var(--story-guide-muted); font: inherit; font-weight: 600; cursor: pointer;}
+.story-library-guide .story-guide-tabs button[aria-selected="true"] {color: #64dcff; border-bottom-color: #64dcff;}
+.story-library-guide .story-guide-tabs button:hover {background: #64dcff0b; color: #f4f7ff;}
+.story-library-guide .story-guide-tabs svg {flex-shrink: 0;}
+.story-library-guide .story-guide-panel {outline-offset: 8px;}
+.story-library-guide .story-guide-panel h3 {margin: 14px 0 12px; font-size: 1.6em; line-height: 1.45; font-weight: 600; letter-spacing: -.025em; overflow-wrap: anywhere;}
+.story-library-guide .story-guide-panel h4 {margin: 0 0 10px; font-size: 1.15em; line-height: 1.6; font-weight: 600; overflow-wrap: anywhere;}
+.story-library-guide .story-guide-panel > p {color: var(--story-guide-muted);}
+.story-library-guide .story-guide-count {display: grid; grid-template-columns: 145px minmax(0, 1fr); gap: 32px; align-items: center; padding: 12px 0 28px;}
+.story-library-guide .story-guide-number {font-size: 5.75em; line-height: 1; letter-spacing: -.07em; color: #f2c58d; font-weight: 300; text-align: center;}
+.story-library-guide .story-guide-number > span {display: block; margin: 14px 0 0 7px; font-size: .13em; line-height: 1.4; letter-spacing: .28em; font-weight: 600; color: var(--story-guide-muted);}
+.story-library-guide .story-guide-count p {color: var(--story-guide-muted);}
+.story-library-guide p.story-guide-emphasis {margin-top: 14px; color: #f2c58d;}
+.story-library-guide .story-guide-explanations {display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 28px; padding: 27px 0; border-top: 1px solid #263a50;}
+.story-library-guide .story-guide-explanations p {color: var(--story-guide-muted);}
+.story-library-guide .story-guide-sources {display: flex; flex-wrap: wrap; gap: 6px 24px; padding-top: 12px;}
+.story-library-guide .story-guide-reference {display: inline-flex; align-items: center; gap: 8px; min-height: 44px; color: #9adff1; font-size: .84em; line-height: 1.65; text-underline-offset: 4px; text-decoration-color: #64dcff66; overflow-wrap: anywhere;}
+.story-library-guide .story-guide-reference > svg {flex-shrink: 0;}
+.story-library-guide .story-guide-reference:hover {color: #f4f7ff; text-decoration-color: currentColor;}
+.story-library-guide .story-guide-stories {list-style: none; margin: 26px 0 20px; padding: 0;}
+.story-library-guide .story-guide-stories li {border-top: 1px solid #263a50;}
+.story-library-guide .story-guide-stories li:last-child {border-bottom: 1px solid #263a50;}
+.story-library-guide .story-guide-story.btn {width: 100%; display: flex; justify-content: flex-start; text-align: start; padding: 22px 12px; gap: 22px; border-radius: 8px; font-size: 1em; white-space: normal;}
+.story-library-guide .story-guide-story.btn:hover {background: #64dcff0a;}
+.story-library-guide .story-guide-story > svg {margin-inline-start: auto; flex-shrink: 0; color: #64dcff;}
+.story-library-guide .story-guide-index {font-size: .85em; align-self: flex-start; margin-top: 3px; color: #7792ac; letter-spacing: .08em;}
+.story-library-guide .story-guide-story-text {display: flex; flex-direction: column; gap: 5px; min-width: 0;}
+.story-library-guide .story-guide-object {color: #9adff1; font-size: .87em; line-height: 1.5;}
+.story-library-guide .story-guide-object > span {margin-inline-start: 8px; font-size: .85em; color: var(--story-guide-muted); font-weight: 400;}
+.story-library-guide .story-guide-story-text strong {font-size: 1.08em; line-height: 1.6; font-weight: 500; overflow-wrap: anywhere;}
+.story-library-guide .story-guide-duration {color: var(--story-guide-muted); font-size: .8em; line-height: 1.5; font-weight: 400;}
+.story-library-guide p.story-guide-note {margin-top: 14px; font-size: .88em; line-height: 1.8; color: #a0b3c8;}
+.story-library-guide .story-guide-cultures {display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 0 30px; list-style: none; margin: 22px 0; padding: 0;}
+.story-library-guide .story-guide-cultures li {min-width: 0; padding: 25px 0 23px; border-top: 1px solid #263a50;}
+.story-library-guide .story-guide-cultures article {display: flex; flex-direction: column; align-items: flex-start; height: 100%;}
+.story-library-guide p.story-guide-culture-name {color: #f2c58d; font-size: .8em; font-weight: 500; letter-spacing: .02em; margin-bottom: 10px;}
+.story-library-guide .story-guide-cultures h4 {font-size: 1.08em; margin-bottom: 8px;}
+.story-library-guide .story-guide-cultures article > p:not(.story-guide-culture-name) {font-size: .91em; color: var(--story-guide-muted); margin-bottom: 12px;}
+.story-library-guide .story-guide-cultures .story-guide-reference {margin-top: auto; font-size: .77em;}
+.story-library-guide .story-guide-greek-link.btn {height: auto; min-height: 44px; padding: 8px 0; font-size: .85em; white-space: normal; color: #64dcff; text-align: start; margin-bottom: 8px;}
+.story-library-guide .story-guide-greek-link.btn svg {flex-shrink: 0;}
+.story-library-guide .story-guide-sr-only {position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip: rect(0, 0, 0, 0); white-space: nowrap; border: 0;}
+.large-text .story-library-guide {--story-guide-text-size: 1.2rem;}
+.large-text .story-library-guide .story-guide-tabs button {min-height: 70px;}
+@media (max-width: 700px) {
+  .story-library-guide .story-guide-tabs {gap: 2px; margin-bottom: 24px;}
+  .story-library-guide .story-guide-tabs button {gap: 7px; flex-direction: column; font-size: .84em; line-height: 1.55; padding: 10px 5px; min-height: 75px;}
+  .story-library-guide .story-guide-count {grid-template-columns: 1fr; gap: 20px; align-items: start;}
+  .story-library-guide .story-guide-number {text-align: start; font-size: 5em; display: flex; align-items: baseline; gap: 17px;}
+  .story-library-guide .story-guide-number > span {display: inline; margin: 0;}
+  .story-library-guide .story-guide-panel h3 {font-size: 1.4em;}
+  .story-library-guide .story-guide-explanations {grid-template-columns: 1fr; gap: 24px;}
+  .story-library-guide .story-guide-cultures {grid-template-columns: 1fr;}
+  .story-library-guide .story-guide-cultures article {height: auto;}
+  .story-library-guide .story-guide-story.btn {padding: 20px 3px; gap: 13px;}
+  .story-library-guide .story-guide-index {display: none;}
+  .story-library-guide .story-guide-story-text strong {font-size: 1em;}
+  .story-library-guide .story-guide-object > span {display: block; margin-inline-start: 0; margin-top: 3px;}
+  .large-text .story-library-guide {--story-guide-text-size: 1.15rem;}
+}

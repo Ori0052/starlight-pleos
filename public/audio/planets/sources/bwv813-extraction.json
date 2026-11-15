@@ -1,0 +1,38 @@
+[
+  {
+    "movement": "Allemande",
+    "midi": "/workspace/artifacts/planet-music-research/french-suite-2/bwv813-allemande-sankey.mid",
+    "sourceNoteIndexRange": [
+      0,
+      498
+    ],
+    "sourceStartTick": 67,
+    "sourceStartSeconds": 0.08723958333333333,
+    "sourceLastNoteOffTick": 63015,
+    "noteOnCount": 498,
+    "noteOffCount": 498,
+    "sourceMidiSha256": "5b14205fa9f17b1b8e41d83b0141f973a917634a8a77ee57931d1971f5b914d6",
+    "extractedMidiSha256": "1da9d6577fcf8b22d1c5dd374cbb0f2fb0e3e58f30285428e252dfe937457a23",
+    "canonicalPitchSequenceMatchesMeterAnnotatedReference": true,
+    "performanceTiming": "Original inter-event timing, channels, tuning bends, all note lengths and encoded repeats preserved. Leading pre-roll and other movements removed.",
+    "referenceOnly": "Laura MIDI meter changes mark I Allemande at 0, II Courante at 29184, III Sarabande at 61440, IV Air at 90240. Canonical simultaneous-chord pitch sequence exactly matches original for the extracted movement."
+  },
+  {
+    "movement": "Sarabande",
+    "midi": "/workspace/artifacts/planet-music-research/french-suite-2/bwv813-sarabande-sankey.mid",
+    "sourceNoteIndexRange": [
+      976,
+      1350
+    ],
+    "sourceStartTick": 120926,
+    "sourceStartSeconds": 157.45572916666666,
+    "sourceLastNoteOffTick": 183498,
+    "noteOnCount": 374,
+    "noteOffCount": 374,
+    "sourceMidiSha256": "5b14205fa9f17b1b8e41d83b0141f973a917634a8a77ee57931d1971f5b914d6",
+    "extractedMidiSha256": "e6312e9424ae862cefb8caa608e53f69b5c4c967f0ec9abe2db4ccfb27ac9952",
+    "canonicalPitchSequenceMatchesMeterAnnotatedReference": true,
+    "performanceTiming": "Original inter-event timing, channels, tuning bends, all note lengths and encoded repeats preserved. Leading pre-roll and other movements removed.",
+    "referenceOnly": "Laura MIDI meter changes mark I Allemande at 0, II Courante at 29184, III Sarabande at 61440, IV Air at 90240. Canonical simultaneous-chord pitch sequence exactly matches original for the extracted movement."
+  }
+]

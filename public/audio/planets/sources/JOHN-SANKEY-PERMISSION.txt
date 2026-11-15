@@ -1,0 +1,48 @@
+MIDI performance copyright John Sankey.
+Original composition: Johann Sebastian Bach, French Suite No. 2 in C minor,
+BWV 813. The composition is in the public domain. The MIDI performance is not
+represented as CC0 or public domain.
+
+Artist's permission notice, preserved with the MIDI and its audio render:
+
+Anyone may copy, link to, or distribute anything on this site as much as they
+wish, as long as this notice of copyright and permission to further copy is
+distributed with all copies. That's the only restriction I put on them - that
+they remain absolutely free to all. No one may restrict their further use in
+any way, by collection copyright, physical copy prevention, or any other means.
+
+Source of the notice:
+https://web.archive.org/web/20170528215517/http://johnsankey.ca/
+The complete notice is quoted and its unrestricted commercial and derivative
+use recognized by Wikimedia Commons at:
+https://commons.wikimedia.org/wiki/File:Scarlatti_K_213.ogg#Licensing
+Pinned Commons revision:
+https://commons.wikimedia.org/w/index.php?title=File:Scarlatti_K_213.ogg&oldid=1272691642
+
+Source performance attribution:
+https://www.midiworld.com/bach.htm (French Suites: John Sankey, BWV 813)
+https://www.jsbach.net/midi/midi_johnsankey.html
+https://github.com/reubenson/midi-archive/blob/2ac7e93783c9a628cde25fee81634f7c396d76ce/src/_includes/sankey.md
+
+Downloaded original MIDI (embedded credit: harpsichord: John Sankey):
+https://raw.githubusercontent.com/reubenson/midi-archive/2ac7e93783c9a628cde25fee81634f7c396d76ce/src/assets/sankey/midi/bwv813.mid
+SHA-256: 5b14205fa9f17b1b8e41d83b0141f973a917634a8a77ee57931d1971f5b914d6
+
+Changes in STARLIGHT PLEOS:
+Two individual movements extracted without recomposing notes. Original
+inter-event timing, note lengths, channels and pitch-bend tuning retained.
+Leading pre-roll and other movements removed. Audio rendered using FluidSynth
+and the GeneralUser GS 2.0.3 sampled grand piano (GM program 0), with light
+reverb and a three-second release tail, then encoded as MP3. This is a digital
+piano rendering of a MIDI performance, not a new acoustic piano recording.
+The source MIDI and this notice remain available for copying and further use.
+No exclusive collection copyright or DRM restrictions are claimed over them.
+
+SoundFont credit: S. Christian Collins, GeneralUser GS 2.0.3.
+The GeneralUser GS License v2.0 expressly permits private and commercial music
+creation. Its full text accompanies these outputs as GeneralUser-GS-LICENSE.txt.
+
+Verification limit (2026-11-15): the live artist and archived artist pages were
+not reachable in this execution environment. The quoted all-site permission
+was verified through the cited Commons page, and performance identity through
+the independently credited MIDI archive, MIDIworld listing and embedded credit.

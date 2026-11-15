@@ -1,0 +1,117 @@
+export type MusicTrack={
+ id:string;src:string;title:string;titleKo:string;composer:string;composerKo?:string;
+ performer:string;license:string;licenseUrl:string;sourceUrl:string;credit:string;
+ performanceKind?:'recording'|'digital';durationSeconds?:number;sha256?:string;
+ scoreSourceUrl?:string;changes?:string;
+};
+
+/** Recording attribution is distinct from the public-domain composition. */
+export const musicTrack = {
+  id: 'clair-de-lune-laurens-goedhart-2011',
+  src: '/audio/clair-de-lune.mp3',
+  title: 'Clair de lune',
+  titleKo: '달빛',
+  composer: 'Claude Debussy',
+  composerKo: '드뷔시',
+  performer: 'Laurens Goedhart',
+  recordingYear: 2011,
+  originalConversionCredit: 'Akaniji',
+  license: 'CC BY 3.0',
+  licenseUrl: 'https://creativecommons.org/licenses/by/3.0/',
+  sourceUrl: 'https://commons.wikimedia.org/wiki/File:Clair_de_lune_(Claude_Debussy)_Suite_bergamasque.ogg',
+  performerSourceUrl: 'https://soundcloud.com/laurensgoedhart/claude-debussys-clair-de-lune',
+  durationSeconds: 304.117551,
+  sha256: 'c17f9be9d917cb4dc99e55bbeb3b53ae1beb5bce8a649bb387ed5ab21f896778',
+  changes: 'Wikimedia-provided MP3 transcode; copied without further audio editing. Repeated playback and playback-volume adjustment in the app.',
+  credit: 'Clair de lune — Claude Debussy. Piano and recording: Laurens Goedhart (2011). Original Commons conversion: Akaniji. CC BY 3.0. Wikimedia MP3 transcode; repeated playback and volume adjustment.',
+} as const;
+
+export const planetMusicTracks:Record<string,MusicTrack>={
+ mercury:{
+  id:'anh114-minuet-kasrar-excerpt',src:'/audio/planets/anh114-minuet-excerpt.mp3',
+  title:'Minuet, BWV Anh. 114 · excerpt',titleKo:'미뉴엣 BWV Anh. 114 · 발췌',
+  composer:'Christian Petzold',composerKo:'페촐트',performer:'KasraR',performanceKind:'recording',
+  license:'Public-domain dedication',licenseUrl:'https://commons.wikimedia.org/wiki/Template:PD-self',
+  sourceUrl:'https://commons.wikimedia.org/wiki/File:Minuet-G-Major-BWV-Anh-114.ogv',
+  credit:'Christian Petzold. Performed by KasraR (2013), released by its creator under the worldwide PD-self dedication. A 22.2-second excerpt, not the complete 98-second performance.',
+  changes:'Audio extracted from a credited public mirror, silent end card removed; 70 ms fade-in / 350 ms fade-out; MP3 conversion. Excerpt repeated at adjusted playback volume.',
+  durationSeconds:22.230204,sha256:'bb3b2fdf02c2b9c3dac65e20f1d09bf85d9200655a570b3e29ae53ad79a4b409',
+ },
+ venus:{
+  id:'bwv988-goldberg-aria-ishizaka',src:'/audio/planets/bwv988-aria.mp3',
+  title:'Goldberg Variations · Aria, BWV 988',titleKo:'골드베르크 변주곡 · 아리아',
+  composer:'Johann Sebastian Bach',composerKo:'바흐',performer:'Kimiko Ishizaka (2012)',performanceKind:'recording',
+  license:'CC0 1.0',licenseUrl:'https://creativecommons.org/publicdomain/zero/1.0/',
+  sourceUrl:'https://commons.wikimedia.org/wiki/File:Goldberg_Variations_01_Aria.ogg',
+  credit:'Open Goldberg Variations. Piano performance by Kimiko Ishizaka, 2012. Recording released under CC0. The downloaded source OGG hash matches the Commons original.',
+  changes:'OGG converted to MP3 at 160 kbps; no cuts, tempo or pitch changes. Repeated playback and volume adjustment.',
+  durationSeconds:299.572245,sha256:'f67fbee3d36545fe0b81e71ab97451b681aed4bc9319f534807891a3b3b5b852',
+ },
+ earth:{
+  id:'bwv846-c-major-prelude-ishizaka',src:'/audio/planets/bwv846-prelude.mp3',
+  title:'C major Prelude, WTC Book I · BWV 846',titleKo:'평균율 1권 · 다장조 프렐류드',
+  composer:'Johann Sebastian Bach',composerKo:'바흐',performer:'Kimiko Ishizaka (2015)',performanceKind:'recording',
+  license:'CC0 1.0',licenseUrl:'https://creativecommons.org/publicdomain/zero/1.0/',
+  sourceUrl:'https://commons.wikimedia.org/wiki/File:Kimiko_Ishizaka_-_Bach_-_Well-Tempered_Clavier,_Book_1_-_01_Prelude_No._1_in_C_major,_BWV_846.ogg',
+  credit:'Kimiko Ishizaka, The Well-Tempered Clavier Book 1 (2015). Prelude only. The performer released this recording under CC0.',
+  changes:'Pinned public MP3 mirror; mirror removed artwork/lyrics/comments while retaining the audio stream. App copy has no further edits. Repeated playback and volume adjustment.',
+  durationSeconds:162.96,sha256:'2866ab89ca1d1d798220f1aa62ae2caf999ef87bf8cd6fed45bd36f18c59b0ec',
+ },
+ mars:{
+  id:'bwv813-allemande-sankey-digital',src:'/audio/planets/bwv813-allemande-digital.mp3',
+  durationSeconds:85.002449,sha256:'9b7f00de661663533861b7ba3c2e7e40b8b4b991c25e37fd2d611a124ed53ca1',
+  scoreSourceUrl:'/audio/planets/sources/bwv813-allemande-sankey.mid',
+  title:'French Suite No. 2 · Allemande, BWV 813',titleKo:'프랑스 조곡 2번 · 알라망드',
+  composer:'Johann Sebastian Bach',composerKo:'바흐',performer:'John Sankey MIDI · digital piano',performanceKind:'digital',
+  license:'John Sankey permission notice',licenseUrl:'/audio/planets/sources/JOHN-SANKEY-PERMISSION.txt',
+  sourceUrl:'https://www.jsbach.net/midi/midi_johnsankey.html',
+  credit:'MIDI performance © John Sankey. Digital piano rendering of the Allemande from French Suite No. 2, BWV 813. Copyright and permission notice accompany the source MIDI.',
+  changes:'Movement selected from the attributed MIDI performance and rendered with GeneralUser GS piano. Digital performance, repeated playback and volume adjustment.',
+ },
+ jupiter:{
+  id:'bwv596-siciliano-metzner',
+  src:'https://upload.wikimedia.org/wikipedia/commons/4/49/J.S.Bach_-_Transcription_for_organ_of_Vivaldi_Concerto_Op._3%2C_No._11%2C_BWV_596_%E2%80%93_2._Largo_spiccato.oga',
+  title:'Siciliano · Largo e spiccato, BWV 596',titleKo:'시칠리아노 · BWV 596',
+  composer:'Antonio Vivaldi · arr. J. S. Bach',composerKo:'비발디 · 바흐 편곡',performer:'Metzner, Link organ, Feuchtwangen (2009)',performanceKind:'recording',
+  license:'CC BY 3.0',licenseUrl:'https://creativecommons.org/licenses/by/3.0/',
+  sourceUrl:'https://commons.wikimedia.org/wiki/File:J.S.Bach_-_Transcription_for_organ_of_Vivaldi_Concerto_Op._3,_No._11,_BWV_596_–_2._Largo_spiccato.oga',
+  credit:'Organ transcription by J. S. Bach after Vivaldi, RV 565 / Op. 3 No. 11. Recorded by Metzner on 24 July 2009. CC BY 3.0. The slow Siciliano / Largo movement only.',
+  changes:'Unedited remote Commons recording. Repeated playback and volume adjustment. Requires an internet connection and a supported audio codec.',durationSeconds:157,
+ },
+ saturn:{
+  id:'bwv1068-air-usaf-strings',src:'/audio/planets/bwv1068-air.m4a',
+  title:'Air (Air on the G String) · BWV 1068',titleKo:'G선상의 아리아 · Air',
+  composer:'Johann Sebastian Bach',composerKo:'바흐',performer:'USAF Band, Air Force Strings · Keith H. Bland (2000)',performanceKind:'recording',
+  license:'Public domain · U.S. Government',licenseUrl:'https://commons.wikimedia.org/wiki/Template:PD-USGov-Military-Air_Force',
+  sourceUrl:'https://commons.wikimedia.org/wiki/File:Air_-_Air_Force_Strings_-_United_States_Air_Force_Band.mp3',
+  credit:'Air from Orchestral Suite No. 3, BWV 1068. Air Force Strings, conducted by 1st Lt. Keith H. Bland, Collage (2000). Commons identifies the performance and recording as official-duty U.S. Air Force work. Popularly known as Air on the G String; this is a strings performance.',
+  changes:'AAC transcode obtained from a pinned public mirror with Commons provenance; app copy unchanged. Repeated playback and volume adjustment.',
+  durationSeconds:183.4,sha256:'7fb7d964c69a50067fb25831c5d2ba20ea2ac389bb7b6de378c9f7d9568bf99c',
+ },
+ uranus:{
+  id:'bwv1003-andante-digital-violin',src:'/audio/planets/bwv1003-andante-digital.mp3',
+  title:'Solo Violin Sonata No. 2 · Andante, BWV 1003',titleKo:'바이올린 소나타 2번 · 안단테',
+  composer:'Johann Sebastian Bach',composerKo:'바흐',performer:'Score-based digital violin · FluidSynth / GeneralUser GS',performanceKind:'digital',
+  license:'CC BY-SA 3.0',licenseUrl:'https://creativecommons.org/licenses/by-sa/3.0/',
+  sourceUrl:'https://www.mutopiaproject.org/cgibin/piece-info.cgi?id=1456',
+  scoreSourceUrl:'/audio/planets/sources/andante-reference.mid',
+  credit:'MIDI/engraving by Hajo Dezelski, Mutopia-2008/07/13-1456, based on Bach-Gesellschaft Edition 1879 Band 27.1. CC BY-SA 3.0. Digital sampled violin rendering; no human violinist is claimed. Source MIDI, rendering settings and SoundFont license accompany the audio.',
+  changes:'Encoded notes and relative rhythm preserved; rendered at 42 BPM, one pass without unfolded repeats, light reverb and edge fades; MP3 160 kbps. Repeated playback and volume adjustment.',
+  durationSeconds:127.320816,sha256:'be37a9c195a6a1942252ae5c16ae20426d356a2787e8474251a2cdf8bd78a248',
+ },
+ neptune:{
+  id:'bwv813-sarabande-sankey-digital',src:'/audio/planets/bwv813-sarabande-digital.mp3',
+  durationSeconds:84.506122,sha256:'64b620eee17cf44bb00647c0f6bb1d90be5f377a5d0e81de4f32c8c01f5fe404',
+  scoreSourceUrl:'/audio/planets/sources/bwv813-sarabande-sankey.mid',
+  title:'French Suite No. 2 · Sarabande, BWV 813',titleKo:'프랑스 조곡 2번 · 사라방드',
+  composer:'Johann Sebastian Bach',composerKo:'바흐',performer:'John Sankey MIDI · digital piano',performanceKind:'digital',
+  license:'John Sankey permission notice',licenseUrl:'/audio/planets/sources/JOHN-SANKEY-PERMISSION.txt',
+  sourceUrl:'https://www.jsbach.net/midi/midi_johnsankey.html',
+  credit:'MIDI performance © John Sankey. Digital piano rendering of the Sarabande from French Suite No. 2, BWV 813. Copyright and permission notice accompany the source MIDI.',
+  changes:'Movement selected from the attributed MIDI performance and rendered with GeneralUser GS piano. Digital performance, repeated playback and volume adjustment.',
+ },
+};
+export function getMusicTrack(objectId:string):MusicTrack|undefined{
+ if(['orion','ursa-major','cassiopeia'].includes(objectId))return musicTrack;
+ return planetMusicTracks[objectId];
+}

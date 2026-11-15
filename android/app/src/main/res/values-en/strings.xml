@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Starlight Drive</string>
+    <string name="load_failed">The screen could not load. Please reopen the app.</string>
+    <string name="external_unavailable">No compatible map or browser app is installed. Use the same link in the web version.</string>
+    <string name="download_web">Download this file from the web version.</string>
+</resources>
+

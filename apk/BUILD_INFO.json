@@ -1,0 +1,11 @@
+{
+  "application_id": "com.starlight.pleos",
+  "version_name": "1.0.0-contest",
+  "apk": "apk/starlight-pleos-release.apk",
+  "size_bytes": 37243664,
+  "sha256": "4631d1032cef8a08c9b4e7e1d52cd793f9780733da825c221cb970f1a8b11611",
+  "web_index_sha256": "dbc417d6cdbf687dd27f909aad650af0cb811cb45e5e9df0d562fadaa6846d31",
+  "signing": "separate-prototype-release-key",
+  "signature_verification": "Verifies\nVerified using v1 scheme (JAR signing): false\nVerified using v2 scheme (APK Signature Scheme v2): true\nVerified using v3 scheme (APK Signature Scheme v3): false\nVerified using v3.1 scheme (APK Signature Scheme v3.1): false\nVerified using v4 scheme (APK Signature Scheme v4): false\nVerified for SourceStamp: false\nNumber of signers: 1\nSigner #1 certificate DN: CN=STARLIGHT PLEOS Prototype, O=STARLIGHT Prototype, C=KR\nSigner #1 certificate SHA-256 digest: ffa91388250f65f89e48834a0818f16d35fbd421dca10dc903c953b37510210a\nSigner #1 certificate SHA-1 digest: b41ea63a4b6cce320ba10119ff44a067716996de\nSigner #1 certificate MD5 digest: b8ef85d7c9a07c9db5a408944c96749c\nSigner #1 key algorithm: RSA\nSigner #1 key size (bits): 3072\nSigner #1 public key SHA-256 digest: de5e5584839130c9cf795e69b1ae58ce0ee8a378e8ffe0dcdd0d8a2a6a57dfe4\nSigner #1 public key SHA-1 digest: 25912e6f02097d5a8455a5d40ee37e99bbadbd51\nSigner #1 public key MD5 digest: d94d75514351150731a7608326b1fad9",
+  "vehicle_sdk_connected": false
+}

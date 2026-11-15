@@ -1,0 +1,45 @@
+{
+  "date": "2026-11-15T02:01:48.231Z",
+  "provider": "HeyGen Voice",
+  "reports": [
+    {
+      "storyId": "orion:mythology:v1",
+      "title": "오리온과 전갈, 하늘에 남은 이야기",
+      "language": "ko",
+      "voiceId": "330290724a1b470fb63153f34d4c0183",
+      "voiceName": "Annie - Lifelike",
+      "model": "server default; actual model not returned",
+      "durationSeconds": 96.6407709750567,
+      "sourceCharacters": 815,
+      "cues": 18,
+      "audioUrl": "https://resource2.heygen.ai/text_to_speech/cff3015517e543f89dace55e455cbe32/330290724a1b470fb63153f34d4c0183/id=f644be5d843f492caca823a0a0e76b9a.mp3",
+      "verification": "Returned text and monotonically ordered synthesis cue metadata checked; full recordings not independently downloaded or listened to in this environment."
+    },
+    {
+      "storyId": "ursa-major:mythology:v1",
+      "title": "큰곰이 된 칼리스토, 함께 읽는 별빛",
+      "language": "ko",
+      "voiceId": "330290724a1b470fb63153f34d4c0183",
+      "voiceName": "Annie - Lifelike",
+      "model": "server default; actual model not returned",
+      "durationSeconds": 95.38761904761905,
+      "sourceCharacters": 816,
+      "cues": 18,
+      "audioUrl": "https://resource2.heygen.ai/text_to_speech/cff3015517e543f89dace55e455cbe32/330290724a1b470fb63153f34d4c0183/id=b608399c9c3d4dd6af2579bd07235a0e.mp3",
+      "verification": "Returned text and monotonically ordered synthesis cue metadata checked; full recordings not independently downloaded or listened to in this environment."
+    },
+    {
+      "storyId": "cassiopeia:mythology:v1",
+      "title": "카시오페이아의 의자와 이어지는 하늘",
+      "language": "ko",
+      "voiceId": "330290724a1b470fb63153f34d4c0183",
+      "voiceName": "Annie - Lifelike",
+      "model": "server default; actual model not returned",
+      "durationSeconds": 96.43179138321997,
+      "sourceCharacters": 812,
+      "cues": 18,
+      "audioUrl": "https://resource2.heygen.ai/text_to_speech/cff3015517e543f89dace55e455cbe32/330290724a1b470fb63153f34d4c0183/id=08e2e6f56b0b49ae85706d218d8ad54f.mp3",
+      "verification": "Returned text and monotonically ordered synthesis cue metadata checked; full recordings not independently downloaded or listened to in this environment."
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "performance": "Score-based digital performance; not a human instrumentalist recording",
+  "inputMidi": "/workspace/artifacts/planet-music-research/b/andante-reference.mid",
+  "inputSha256": "c0e4f643fc020df5ec9902daf7ed38904c90db2de75cdf4951e9f29c699e6a1f",
+  "soundfont": "/workspace/artifacts/planet-music-research/b/GeneralUser-GS.sf2",
+  "soundfontSha256": "9575028c7a1f589f5770fccc8cff2734566af40cd26ed836944e9a5152688cfe",
+  "originalBpm": 60.0,
+  "renderedBpm": 42.0,
+  "tempoScaling": 1.4285714285714286,
+  "ticksPerQuarter": 384,
+  "sourceQuarterBeats": 87.0,
+  "noteOnCount": 422,
+  "noteOffCount": 422,
+  "gmProgramOverrideZeroBased": 40,
+  "channels": [
+    1
+  ],
+  "encodedRepeats": "Preserved as encoded; no repeat signs inferred or unfolded",
+  "sampleRate": 44100,
+  "gain": 0.35,
+  "tailSeconds": 3,
+  "reverb": {
+    "roomSize": 0.55,
+    "damp": 0.45,
+    "width": 35,
+    "level": 0.16
+  },
+  "chorus": false,
+  "durationSeconds": 127.28573696145125,
+  "wavSha256": "cc58c7df713ccc3dcb9fec3bf5141fb8fc60f33be45bf8b90625f92ff4b2c141"
+}
