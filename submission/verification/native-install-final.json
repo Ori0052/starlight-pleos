@@ -1,0 +1,10 @@
+{
+  "checked_utc": "2026-11-15T08:02:57.131073+00:00",
+  "elapsed_seconds": 228.27,
+  "apk_bytes": 37243664,
+  "apk_sha256": "4631d1032cef8a08c9b4e7e1d52cd793f9780733da825c221cb970f1a8b11611",
+  "returncode": 0,
+  "stdout": "Performing Push Install\nSuccess\n",
+  "stderr": "/workspace/submissions/starlight-pleos-2026-11-15/apk/starlight-pleos-release.apk: 1 file pushed, 0 skipped. 16.5 MB/s (37243664 bytes in 2.153s)\n",
+  "scope": "AOSP Android16/API36 only; not Pleos"
+}

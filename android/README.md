@@ -1,6 +1,6 @@
 # STARLIGHT PLEOS Android prototype
 
-This module packages the React/TypeScript service as a real, signed Android release APK. The UI, bundled images, reviewed scripts, local records, settings and local music are loaded from assets through AndroidX `WebViewAssetLoader` at `https://appassets.androidplatform.net/`. It does not load the hosted website as its application shell. The approved app icon is included as a native adaptive launcher resource; its foreground adds uniform technical safety padding for Android's smaller adaptive-icon safe region, without changing the approved silhouette or web icon.
+This module packages the React/TypeScript service as a real, signed Android release APK. AndroidX `WebViewAssetLoader` is configured to serve the bundled UI, images, reviewed scripts and local music at `https://appassets.androidplatform.net/`; the shell does not load the hosted website. The approved app icon is included as a native adaptive launcher resource; its foreground adds uniform technical safety padding for Android's smaller adaptive-icon safe region, without changing the approved silhouette or web icon. Build, signature and installation passed; native UI execution remains unverified after the test environment's WebView and stock control both crashed. See `BUILD_VERIFICATION.md` before treating it as a validated Pleos application.
 
 ## Build
 
@@ -30,7 +30,7 @@ STARLIGHT_KEY_ALIAS
 STARLIGHT_KEY_PASSWORD
 ```
 
-Passwords are supplied through environment variables, not command arguments or source code. For a quick unsigned development build, `cd android && ./gradlew assembleDebug` uses Android's standard debug workflow and produces a different `.debug` package; do not confuse it with the submitted signed release.
+Passwords are supplied through environment variables, not command arguments or source code. For a quick development build, `cd android && ./gradlew assembleDebug` uses Android's standard debug-key signing workflow and produces a different `.debug` package; do not confuse it with the submitted prototype-key-signed release.
 
 ## Install
 
@@ -43,7 +43,7 @@ The host requests `INTERNET` and no dangerous camera/location/microphone permiss
 
 ## Exact scope
 
-- Local UI/assets and reviewed reading scripts work without the hosted site. Native local storage uses the application WebView origin and does not sync with a desktop browser.
+- The UI/assets and reviewed reading scripts are bundled rather than fetched from the hosted site. Actual offline UI operation remains unverified on Android; see the runtime report. Native local storage is configured under the application WebView origin and does not sync with a desktop browser.
 - Recorded narration, one external planetary music source, external references/maps and network font downloads require connectivity. An unavailable voice can be read through the same transcript. Browser `speechSynthesis` availability varies by WebView; it is not a Pleos TTS integration.
 - Vehicle care/windows/climate/lights/seats remain explicitly labeled demo state. No seat/window/HVAC/lock command reaches a vehicle.
 - The app declares Automotive hardware as optional for installation compatibility; this does not certify Pleos compatibility or implement native vehicle SDKs. It does not mark itself distraction optimized. Vehicle/AAOS UX policy and native SDK readback must be verified separately on the actual Pleos Connect emulator.

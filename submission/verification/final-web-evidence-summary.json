@@ -1,0 +1,70 @@
+{
+  "timestamp": "2026-11-15T08:02:57.655207+00:00",
+  "uiSourceCommit": "4cf48ac8e25d7b6164bd70e8ff941823a611f797",
+  "captureSummary": {
+    "screenshots": 22,
+    "rawChapters": 8,
+    "video": "1920x1080 VP8 25fps silent actual UI recording",
+    "noMocks": true,
+    "pointerAnnotationOnly": true,
+    "captureErrors": []
+  },
+  "verification": {
+    "core": {
+      "passed": 12,
+      "failed": 1
+    },
+    "vehicle": {
+      "passed": 6,
+      "failed": 0
+    },
+    "travel": "PASS"
+  },
+  "remainingIssue": [
+    {
+      "id": "MOBILE_EN_LARGE_MAP_CENTER_OVERLAP",
+      "severity": "minor",
+      "status": "open",
+      "reproduction": [
+        "Fresh production page; viewport 390×844",
+        "Settings: enable Large text, choose English, close settings",
+        "Click the center of the Cassiopeia map button (approximately x=67.89,y=495.80)"
+      ],
+      "observed": "Sky view control overlaps and intercepts the central map-button hit area. An actual normal click timed out with interception, and document.elementFromPoint confirms Sky view at that point.",
+      "workingAlternatives": [
+        "Normal click on Cassiopeia visible label succeeds",
+        "List view selection succeeds",
+        "Desktop map keyboard selection succeeds"
+      ],
+      "sourceSuspected": "Mobile large-text map uses fixed top inset while relative view controls follow wrapped heading text.",
+      "scope": "Partial pointer target overlap; content remains reachable. App source was not changed.",
+      "evidence": "mobile-map-pointer-inspection.json"
+    }
+  ],
+  "audioLimits": {
+    "speech": {
+      "speechApi": true,
+      "utteranceApi": true,
+      "availableVoices": 0,
+      "realPlayOutcome": "unavailable message; full transcript completion verified"
+    },
+    "remoteMedia": {
+      "blockedDomains": [
+        "fonts.googleapis.com",
+        "resource2.heygen.ai"
+      ],
+      "browserFailure": "net::ERR_TUNNEL_CONNECTION_FAILED",
+      "actualRecordedPlayOutcome": "unavailable error with device-voice alternative and usable full transcript",
+      "audibleOutputVerified": false
+    },
+    "physicalVehicleOrRemotePairingVerified": false
+  },
+  "sourceEvidence": {
+    "coreQA": "final-web-qa.json",
+    "vehicleQA": "vehicle-final-qa.json",
+    "travelQA": "travel-final-qa.json",
+    "captureManifest": "capture-final.json"
+  },
+  "publicationSelection": "Use only screenshots in capture-final.json and its r2/r3 raw chapter list. Old r1 clips/ERROR images are internal rejected capture attempts, not final submission evidence. Browser-state files are reproduction working state and not required submission material.",
+  "server": "Owned preview :5191 stopped after completion; all downstream artifacts are local files."
+}

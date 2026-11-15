@@ -1,0 +1,49 @@
+{
+  "status": "passed with declared limits",
+  "master": "STARLIGHT_PLEOS_demo.mp4",
+  "bytes": 19565363,
+  "sha256": "cc5c48dbeddbe092caa03b478d03956cac1cd833d0fd72f24a91a91d7e4f31e4",
+  "runtime_seconds": 172.4,
+  "video": {
+    "width": 1920,
+    "height": 1080,
+    "fps": "25/1",
+    "codec": "h264",
+    "pixel_format": "yuv420p",
+    "frames": 4310,
+    "color": "SDR Rec.709 limited-range"
+  },
+  "audio": {
+    "codec": "aac",
+    "sample_rate": 48000,
+    "channels": 2,
+    "role": "separate licensed Debussy music bed; no app speech captured",
+    "integrated_lufs": -26.7,
+    "true_peak_dbfs": -6.1,
+    "listening_review": "not_performed"
+  },
+  "source_recordings": 8,
+  "retained_segments": 15,
+  "source_speed": 1.0,
+  "caption_count": 23,
+  "caption_role": "editorial screen-step annotations, not a speech transcript",
+  "checks": {
+    "full_ffmpeg_decode": "passed",
+    "zip_integrity": "passed",
+    "black_frame_detection": "no near-total-black intervals >=0.08s",
+    "caption_interval_and_measured_bounds": "passed",
+    "all_caption_state_frames": "reviewed; local overlays clear primary controls",
+    "cut_boundaries": "before/after frames reviewed for all14 cuts",
+    "browser_native_playback": "completed to end at playbackRate1; no page/media error",
+    "browser_dropped_frames": 16,
+    "browser_total_frames": 4310,
+    "browser_wall_elapsed_seconds": 184.088
+  },
+  "limitations": [
+    "Silent browser UI footage has editorial captions and separately added music. It is not evidence of recorded narration or app speaker playback.",
+    "The external narration preload error remains visible and the real transcript/read-save fallback is shown.",
+    "Vehicle controls are browser simulation and companion sharing is inside one browser. No Pleos SDK or physical vehicle connection is implied.",
+    "Visual inspection uses encoded state/caption/cut frames plus full native1x browser playback. Actual speaker/headphone listening and hardware-device playback were not performed.",
+    "At some chapter boundaries representative actions are omitted by straight cuts; no speed effect, fake UI or synthetic progress was introduced."
+  ]
+}

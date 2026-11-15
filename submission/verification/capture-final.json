@@ -1,0 +1,750 @@
+{
+  "commit": "4cf48ac8e25d7b6164bd70e8ff941823a611f797",
+  "base": "http://127.0.0.1:5191",
+  "createdAt": "2026-11-15T07:45:47.077Z",
+  "viewport": {
+    "width": 1920,
+    "height": 1080
+  },
+  "captureType": "actual production web UI, no speech/media mocks",
+  "videoAudio": "silent browser video; no audible output is asserted",
+  "cursor": "recording-only pointer annotation follows real mouse events; excluded from still captures",
+  "screenshots": [
+    {
+      "file": "/workspace/submissions/starlight-pleos-2026-11-15/screenshots/01-sky-desktop.png",
+      "route": "#sky",
+      "viewport": {
+        "width": 1920,
+        "height": 1080
+      },
+      "description": "시연 하늘, 실제 선택 가능한 세 별자리와 확정 로고·5개 메뉴",
+      "scrollY": 0,
+      "demoLabelsPreserved": true,
+      "actualPixels": {
+        "width": 1920,
+        "height": 1080
+      },
+      "sha256": "700edbddc5d094f62210ce2fc8566ef8c0a6befd9a80dcafc86ad80991d67f50"
+    },
+    {
+      "file": "/workspace/submissions/starlight-pleos-2026-11-15/screenshots/02-orion-detail.png",
+      "route": "#detail",
+      "viewport": {
+        "width": 1920,
+        "height": 1080
+      },
+      "description": "오리온자리 상세, 시연 선택 및 이야기 진입",
+      "scrollY": 0,
+      "demoLabelsPreserved": true,
+      "actualPixels": {
+        "width": 1920,
+        "height": 1080
+      },
+      "sha256": "7d697abc4731fe870a0722e2d1f4db873492eb89e57e4e58ad3f1644f840c592"
+    },
+    {
+      "file": "/workspace/submissions/starlight-pleos-2026-11-15/screenshots/03-story-orion.png",
+      "route": "#story",
+      "viewport": {
+        "width": 1920,
+        "height": 1080
+      },
+      "description": "오리온자리 신화·자막·읽기와 음성 조작 경로; 재생을 모의하지 않음",
+      "scrollY": 0,
+      "demoLabelsPreserved": true,
+      "actualPixels": {
+        "width": 1920,
+        "height": 1080
+      },
+      "sha256": "d0ab015ac669c535ef991aba31216f829adaf60eb5e99b96e581e15915f6a5e7"
+    },
+    {
+      "file": "/workspace/submissions/starlight-pleos-2026-11-15/screenshots/04-solar-overview.png",
+      "route": "#solar",
+      "viewport": {
+        "width": 1920,
+        "height": 1080
+      },
+      "description": "태양과 8행성 순서가 보이는 학습 모형; 실제 비례가 아님 안내",
+      "scrollY": 0,
+      "demoLabelsPreserved": true,
+      "actualPixels": {
+        "width": 1920,
+        "height": 1080
+      },
+      "sha256": "383bbdfe69d385aa80ef942e4dc369149276907dfa44f80ff90100fff1d8e0c8"
+    },
+    {
+      "file": "/workspace/submissions/starlight-pleos-2026-11-15/screenshots/05-solar-eight-planets.png",
+      "route": "#solar",
+      "viewport": {
+        "width": 1920,
+        "height": 1080
+      },
+      "description": "수성부터 해왕성까지 서로 다른 원본 이미지의 전체 8행성 목록",
+      "scrollY": 0,
+      "demoLabelsPreserved": true,
+      "actualPixels": {
+        "width": 1920,
+        "height": 1080
+      },
+      "sha256": "227c75b73cceae7acf882ed6ff904b1656a02490c17856219bcff2bafadcebe8"
+    },
+    {
+      "file": "/workspace/submissions/starlight-pleos-2026-11-15/screenshots/06-saturn-detail.png",
+      "route": "#detail",
+      "viewport": {
+        "width": 1920,
+        "height": 1080
+      },
+      "description": "토성 원본 이미지와 고유 학습 내용·이야기·기록 진입",
+      "scrollY": 0,
+      "demoLabelsPreserved": true,
+      "actualPixels": {
+        "width": 1920,
+        "height": 1080
+      },
+      "sha256": "4caf5f8bf9c356bce6a26e56f4126f1078c7ee322b6fd8729655a99cc66ce4b2"
+    },
+    {
+      "file": "/workspace/submissions/starlight-pleos-2026-11-15/screenshots/07-roof-saturn.png",
+      "route": "#ceiling",
+      "viewport": {
+        "width": 1920,
+        "height": 1080
+      },
+      "description": "실제 차량 천장 콘셉트 배경·토성·화면 밝기·종료 타이머; 실제 투사 아님 안내",
+      "scrollY": 0,
+      "demoLabelsPreserved": true,
+      "actualPixels": {
+        "width": 1920,
+        "height": 1080
+      },
+      "sha256": "33615542133b2fd4bf70de974a0fa0278f83689f1211600ead2e28728fcfecd0"
+    },
+    {
+      "file": "/workspace/submissions/starlight-pleos-2026-11-15/screenshots/08-vehicle-care.png",
+      "route": "#vehicle",
+      "viewport": {
+        "width": 1920,
+        "height": 1080
+      },
+      "description": "차박 케어 배터리·거리·잠금·온도 예시 값; 실제 제어 아님 라벨",
+      "scrollY": 0,
+      "demoLabelsPreserved": true,
+      "actualPixels": {
+        "width": 1920,
+        "height": 1080
+      },
+      "sha256": "e88bd79c8e85a55cbabacaf5c0d978deb22a6d70fa0f2929a712e7dcbe0ac515"
+    },
+    {
+      "file": "/workspace/submissions/starlight-pleos-2026-11-15/screenshots/09-vehicle-climate.png",
+      "route": "#vehicle",
+      "viewport": {
+        "width": 1920,
+        "height": 1080
+      },
+      "description": "앞자리23°C·풍량3단 반영값과 뒷자리 별도 설정; 모든 값 시연 예시 및 현재 반영된 시연 값 표시",
+      "scrollY": 636,
+      "demoLabelsPreserved": true,
+      "actualPixels": {
+        "width": 1920,
+        "height": 1080
+      },
+      "sha256": "63bf31c8e794e300049ab0c1926bbaf801d0c543d5e47e3df6d1152e0fb141a6"
+    },
+    {
+      "file": "/workspace/submissions/starlight-pleos-2026-11-15/screenshots/10-vehicle-window-stop.png",
+      "route": "#vehicle",
+      "viewport": {
+        "width": 1920,
+        "height": 1080
+      },
+      "description": "뒷자리 오른쪽 창문의25%열림 반영값과 멈춤 상태를 표시. 이 장면만으로 중간 정지를 입증하지 않음.",
+      "scrollY": 636,
+      "demoLabelsPreserved": true,
+      "actualPixels": {
+        "width": 1920,
+        "height": 1080
+      },
+      "sha256": "c991012e44808d89ae4db9a1a9e6c34520ae8775f5d19710fd1221733038fafa"
+    },
+    {
+      "file": "/workspace/submissions/starlight-pleos-2026-11-15/screenshots/11-vehicle-lighting.png",
+      "route": "#vehicle",
+      "viewport": {
+        "width": 1920,
+        "height": 1080
+      },
+      "description": "실내 조명20% 시연 반영과 실제 화면 미리보기",
+      "scrollY": 450,
+      "demoLabelsPreserved": true,
+      "actualPixels": {
+        "width": 1920,
+        "height": 1080
+      },
+      "sha256": "b1ddb60b56282846240c384172cdcf1ee7c03bc114ddc45e9f95d586ac3d7bb4"
+    },
+    {
+      "file": "/workspace/submissions/starlight-pleos-2026-11-15/screenshots/12-vehicle-seat.png",
+      "route": "#vehicle",
+      "viewport": {
+        "width": 1920,
+        "height": 1080
+      },
+      "description": "좌석 등받이45°의 시연 반영값과 대응 도식; 실제 차량 이동 아님",
+      "scrollY": 636,
+      "demoLabelsPreserved": true,
+      "actualPixels": {
+        "width": 1920,
+        "height": 1080
+      },
+      "sha256": "6a8eb9e1261f39404e479e184de3f6a593efe23fc937f1e2ee0ccc95521c9924"
+    },
+    {
+      "file": "/workspace/submissions/starlight-pleos-2026-11-15/screenshots/14-records-memo.png",
+      "route": "#records",
+      "viewport": {
+        "width": 1920,
+        "height": 1080
+      },
+      "description": "실제 로컬에 저장된 오리온 읽기 완료·토성 학습 기록과 편집 메모",
+      "scrollY": 0,
+      "demoLabelsPreserved": true,
+      "actualPixels": {
+        "width": 1920,
+        "height": 1080
+      },
+      "sha256": "d540ec2205d13e91990542f7692594c5906e3465d7a164f60b9dad3a17647d7b"
+    },
+    {
+      "file": "/workspace/submissions/starlight-pleos-2026-11-15/screenshots/13-settings-desktop.png",
+      "route": "#records",
+      "viewport": {
+        "width": 1920,
+        "height": 1080
+      },
+      "description": "서로 독립된4개 보기·듣기 토글과 언어 전환; 장식 가로선 제거 반영",
+      "scrollY": 0,
+      "demoLabelsPreserved": true,
+      "actualPixels": {
+        "width": 1920,
+        "height": 1080
+      },
+      "sha256": "1fe746c37d9ddb7147390a98c3d7c1bba2d8199b0306e36806fa6db7986592d6"
+    },
+    {
+      "file": "/workspace/submissions/starlight-pleos-2026-11-15/screenshots/15-companion-connected.png",
+      "route": "#sky",
+      "viewport": {
+        "width": 1920,
+        "height": 1080
+      },
+      "description": "같은 브라우저 차량·휴대폰 시연 연결, 공유 천체ID와 기기·명령 순서 표시",
+      "scrollY": 0,
+      "demoLabelsPreserved": true,
+      "actualPixels": {
+        "width": 1920,
+        "height": 1080
+      },
+      "sha256": "64d18f1662848669dbf6a0528ffb52276e7dac3760c7443434d0c422e40af301"
+    },
+    {
+      "file": "/workspace/submissions/starlight-pleos-2026-11-15/screenshots/16-mobile-sky.png",
+      "route": "#sky",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "description": "세로390×844 실제 하늘 UI와5개 하단 메뉴·확정로고",
+      "scrollY": 0,
+      "demoLabelsPreserved": true,
+      "actualPixels": {
+        "width": 390,
+        "height": 844
+      },
+      "sha256": "14a0eb17a40e343a5e67f2726a887409692c0dcc7d7d6b24af36ca6d7a079a2c"
+    },
+    {
+      "file": "/workspace/submissions/starlight-pleos-2026-11-15/screenshots/17-mobile-settings-en-large.png",
+      "route": "#sky",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "description": "영어·큰 글씨의 실제 개인 설정 패널",
+      "scrollY": 0,
+      "demoLabelsPreserved": true,
+      "actualPixels": {
+        "width": 390,
+        "height": 844
+      },
+      "sha256": "20d8ff942f241a48e4545550b3967fa750c4b2b2fdc7e84994d7db36c8ff8e15"
+    },
+    {
+      "file": "/workspace/submissions/starlight-pleos-2026-11-15/screenshots/18-mobile-eight-planets-en-large.png",
+      "route": "#solar",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "description": "영어·큰 글씨의 세로 행성 목록 재배치",
+      "scrollY": 0,
+      "demoLabelsPreserved": true,
+      "actualPixels": {
+        "width": 390,
+        "height": 844
+      },
+      "sha256": "cdce5367cdb723af8c7cfae21be91ff29c5dfd0a333be6df839ddffb8371950b"
+    },
+    {
+      "file": "/workspace/submissions/starlight-pleos-2026-11-15/screenshots/19-mobile-records-en-large.png",
+      "route": "#records",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "description": "영어·큰 글씨의 세로 기록 UI",
+      "scrollY": 0,
+      "demoLabelsPreserved": true,
+      "actualPixels": {
+        "width": 390,
+        "height": 844
+      },
+      "sha256": "0bfe334e47cfd742f2ddd6f433776034e3ce514ddd9e4dcdbf249b5834fe1842"
+    },
+    {
+      "file": "/workspace/submissions/starlight-pleos-2026-11-15/screenshots/20-travel-desktop.png",
+      "route": "#travel",
+      "viewport": {
+        "width": 1920,
+        "height": 1080
+      },
+      "description": "예시 관측 장소와 로컬 장소 저장. 거리·날씨 미연결 상태를 실제로 표시",
+      "scrollY": 0,
+      "demoLabelsPreserved": true,
+      "actualPixels": {
+        "width": 1920,
+        "height": 1080
+      },
+      "sha256": "a92a3f367f81ac2ba87d3fd8e963838e7a1a9dca7ad630452829714766dc9831"
+    },
+    {
+      "file": "/workspace/submissions/starlight-pleos-2026-11-15/screenshots/21-travel-destination.png",
+      "route": "#travel",
+      "viewport": {
+        "width": 1920,
+        "height": 1080
+      },
+      "description": "목적지 확인과 지원 가능한 지도 경로 링크. 차량 내비게이션 전송이 아님을 실제로 표시",
+      "scrollY": 0,
+      "demoLabelsPreserved": true,
+      "actualPixels": {
+        "width": 1920,
+        "height": 1080
+      },
+      "sha256": "04c46d7e15b4bc0d8bfcb636cff3cc77a1f179896c623e4fc1cf89844584120d"
+    },
+    {
+      "file": "/workspace/submissions/starlight-pleos-2026-11-15/screenshots/10b-vehicle-window-midstop.png",
+      "route": "#vehicle",
+      "viewport": {
+        "width": 1920,
+        "height": 1080
+      },
+      "description": "뒷자리 오른쪽 창문을 실제20%중간위치에서멈춰유지한시연.25%목표도달전정지확인",
+      "scrollY": null,
+      "demoLabelsPreserved": true,
+      "actualPixels": {
+        "width": 1920,
+        "height": 1080
+      },
+      "sha256": "250ad8d3fb520e21e2cd88326e057d4d23e465c3744bdb51931fe08547b625d1"
+    }
+  ],
+  "chapters": [
+    {
+      "id": "01-sky-story",
+      "file": "/workspace/submissions/starlight-pleos-2026-11-15/video/raw/01-sky-story-r2.webm",
+      "sourceIn": 2.59,
+      "sourceOut": 32.947,
+      "events": [
+        {
+          "name": "stable chapter start",
+          "sourceTimeSeconds": 2.59
+        },
+        {
+          "name": "select Cassiopeia",
+          "sourceTimeSeconds": 5.73
+        },
+        {
+          "name": "open actual story transcript",
+          "sourceTimeSeconds": 18.451
+        },
+        {
+          "name": "complete reading and save actual local record",
+          "sourceTimeSeconds": 27.636
+        },
+        {
+          "name": "chapter end",
+          "sourceTimeSeconds": 32.947
+        }
+      ],
+      "viewport": {
+        "width": 1920,
+        "height": 1080
+      },
+      "audio": false,
+      "videoProbe": {
+        "programs": [],
+        "stream_groups": [],
+        "streams": [
+          {
+            "codec_name": "vp8",
+            "width": 1920,
+            "height": 1080,
+            "r_frame_rate": "25/1"
+          }
+        ],
+        "format": {
+          "duration": "32.680000"
+        }
+      },
+      "safeSourceIn": 2.59,
+      "safeSourceOut": 32.48
+    },
+    {
+      "id": "02-solar-system",
+      "file": "/workspace/submissions/starlight-pleos-2026-11-15/video/raw/02-solar-system-r2.webm",
+      "sourceIn": 3.443,
+      "sourceOut": 29.076,
+      "events": [
+        {
+          "name": "stable chapter start",
+          "sourceTimeSeconds": 3.443
+        },
+        {
+          "name": "show all eight planets",
+          "sourceTimeSeconds": 5.881
+        },
+        {
+          "name": "save Saturn learning record",
+          "sourceTimeSeconds": 19.288
+        },
+        {
+          "name": "chapter end",
+          "sourceTimeSeconds": 29.077
+        }
+      ],
+      "viewport": {
+        "width": 1920,
+        "height": 1080
+      },
+      "audio": false,
+      "videoProbe": {
+        "programs": [],
+        "stream_groups": [],
+        "streams": [
+          {
+            "codec_name": "vp8",
+            "width": 1920,
+            "height": 1080,
+            "r_frame_rate": "25/1"
+          }
+        ],
+        "format": {
+          "duration": "28.720000"
+        }
+      },
+      "safeSourceIn": 3.443,
+      "safeSourceOut": 28.52
+    },
+    {
+      "id": "03-roof-view",
+      "file": "/workspace/submissions/starlight-pleos-2026-11-15/video/raw/03-roof-view-r2.webm",
+      "sourceIn": 2.502,
+      "sourceOut": 31.956,
+      "events": [
+        {
+          "name": "stable chapter start",
+          "sourceTimeSeconds": 2.502
+        },
+        {
+          "name": "enter ceiling experience",
+          "sourceTimeSeconds": 2.503
+        },
+        {
+          "name": "start real ten-second demo timer",
+          "sourceTimeSeconds": 16.532
+        },
+        {
+          "name": "timer actually returned to sky",
+          "sourceTimeSeconds": 30.155
+        },
+        {
+          "name": "chapter end",
+          "sourceTimeSeconds": 31.956
+        }
+      ],
+      "viewport": {
+        "width": 1920,
+        "height": 1080
+      },
+      "audio": false,
+      "videoProbe": {
+        "programs": [],
+        "stream_groups": [],
+        "streams": [
+          {
+            "codec_name": "vp8",
+            "width": 1920,
+            "height": 1080,
+            "r_frame_rate": "25/1"
+          }
+        ],
+        "format": {
+          "duration": "32.640000"
+        }
+      },
+      "safeSourceIn": 2.502,
+      "safeSourceOut": 31.956
+    },
+    {
+      "id": "04-vehicle-climate",
+      "file": "/workspace/submissions/starlight-pleos-2026-11-15/video/raw/04-vehicle-climate-r2.webm",
+      "sourceIn": 2.335,
+      "sourceOut": 32.484,
+      "events": [
+        {
+          "name": "stable chapter start",
+          "sourceTimeSeconds": 2.335
+        },
+        {
+          "name": "open climate controls",
+          "sourceTimeSeconds": 5.876
+        },
+        {
+          "name": "apply independent front climate",
+          "sourceTimeSeconds": 12.535
+        },
+        {
+          "name": "chapter end",
+          "sourceTimeSeconds": 32.484
+        }
+      ],
+      "viewport": {
+        "width": 1920,
+        "height": 1080
+      },
+      "audio": false,
+      "videoProbe": {
+        "programs": [],
+        "stream_groups": [],
+        "streams": [
+          {
+            "codec_name": "vp8",
+            "width": 1920,
+            "height": 1080,
+            "r_frame_rate": "25/1"
+          }
+        ],
+        "format": {
+          "duration": "32.880000"
+        }
+      },
+      "safeSourceIn": 2.335,
+      "safeSourceOut": 32.484
+    },
+    {
+      "id": "05-vehicle-window",
+      "file": "/workspace/submissions/starlight-pleos-2026-11-15/video/raw/05-vehicle-window-r2.webm",
+      "sourceIn": 2.49,
+      "sourceOut": 33.494,
+      "events": [
+        {
+          "name": "stable chapter start",
+          "sourceTimeSeconds": 2.49
+        },
+        {
+          "name": "start actual simulated window movement",
+          "sourceTimeSeconds": 10.485
+        },
+        {
+          "name": "stop at current actual simulator position",
+          "sourceTimeSeconds": 12.691
+        },
+        {
+          "name": "chapter end",
+          "sourceTimeSeconds": 33.494
+        }
+      ],
+      "viewport": {
+        "width": 1920,
+        "height": 1080
+      },
+      "audio": false,
+      "videoProbe": {
+        "programs": [],
+        "stream_groups": [],
+        "streams": [
+          {
+            "codec_name": "vp8",
+            "width": 1920,
+            "height": 1080,
+            "r_frame_rate": "25/1"
+          }
+        ],
+        "format": {
+          "duration": "34.120000"
+        }
+      },
+      "safeSourceIn": 2.49,
+      "safeSourceOut": 33.494
+    },
+    {
+      "id": "06-settings-records",
+      "file": "/workspace/submissions/starlight-pleos-2026-11-15/video/raw/06-settings-records-r2.webm",
+      "sourceIn": 2.564,
+      "sourceOut": 51.634,
+      "events": [
+        {
+          "name": "stable chapter start",
+          "sourceTimeSeconds": 2.564
+        },
+        {
+          "name": "edit saved memory",
+          "sourceTimeSeconds": 2.565
+        },
+        {
+          "name": "open independent personal settings",
+          "sourceTimeSeconds": 12.91
+        },
+        {
+          "name": "reopen stored story",
+          "sourceTimeSeconds": 49.827
+        },
+        {
+          "name": "chapter end",
+          "sourceTimeSeconds": 51.634
+        }
+      ],
+      "viewport": {
+        "width": 1920,
+        "height": 1080
+      },
+      "audio": false,
+      "videoProbe": {
+        "programs": [],
+        "stream_groups": [],
+        "streams": [
+          {
+            "codec_name": "vp8",
+            "width": 1920,
+            "height": 1080,
+            "r_frame_rate": "25/1"
+          }
+        ],
+        "format": {
+          "duration": "51.600000"
+        }
+      },
+      "safeSourceIn": 2.564,
+      "safeSourceOut": 51.4
+    },
+    {
+      "id": "07-companion",
+      "file": "/workspace/submissions/starlight-pleos-2026-11-15/video/raw/07-companion-r2.webm",
+      "sourceIn": 3.677,
+      "sourceOut": 39.535,
+      "events": [
+        {
+          "name": "stable chapter start",
+          "sourceTimeSeconds": 3.677
+        },
+        {
+          "name": "same-browser companion connection",
+          "sourceTimeSeconds": 16.436
+        },
+        {
+          "name": "disconnect while single-device viewing remains",
+          "sourceTimeSeconds": 29.395
+        },
+        {
+          "name": "chapter end",
+          "sourceTimeSeconds": 39.535
+        }
+      ],
+      "viewport": {
+        "width": 1920,
+        "height": 1080
+      },
+      "audio": false,
+      "videoProbe": {
+        "programs": [],
+        "stream_groups": [],
+        "streams": [
+          {
+            "codec_name": "vp8",
+            "width": 1920,
+            "height": 1080,
+            "r_frame_rate": "25/1"
+          }
+        ],
+        "format": {
+          "duration": "39.560000"
+        }
+      },
+      "safeSourceIn": 3.677,
+      "safeSourceOut": 39.36
+    },
+    {
+      "id": "08-window-midstop",
+      "file": "/workspace/submissions/starlight-pleos-2026-11-15/video/raw/08-window-midstop-r3.webm",
+      "sourceIn": 3.17,
+      "sourceOut": 8.915,
+      "events": [
+        {
+          "name": "real open request",
+          "sourceTimeSeconds": 3.171
+        },
+        {
+          "name": "real stop after first visible motion",
+          "sourceTimeSeconds": 3.897
+        },
+        {
+          "name": "stable stopped state",
+          "sourceTimeSeconds": 8.915
+        }
+      ],
+      "viewport": {
+        "width": 1920,
+        "height": 1080
+      },
+      "audio": false,
+      "actualStoppedPercent": 20,
+      "method": "Native simulator timers + real button clicks, no clock/state mocks",
+      "videoProbe": {
+        "programs": [],
+        "stream_groups": [],
+        "streams": [
+          {
+            "codec_name": "vp8",
+            "width": 1920,
+            "height": 1080,
+            "r_frame_rate": "25/1"
+          }
+        ],
+        "format": {
+          "duration": "9.320000"
+        }
+      },
+      "safeSourceIn": 3.17,
+      "safeSourceOut": 8.915
+    }
+  ],
+  "errors": [],
+  "frozenAt": "2026-11-15T08:00:48.483809+00:00",
+  "timingNote": "Event/source times are wall-clock seconds since page creation, approximately within1s of encoded video clock. Use probed durations and inspect cut boundaries. safeSourceOut clamps within the media; no retiming.",
+  "allMediaFrozen": true
+}

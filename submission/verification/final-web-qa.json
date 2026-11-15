@@ -1,0 +1,945 @@
+{
+  "timestamp": "2026-11-15T07:45:12.718Z",
+  "url": "http://127.0.0.1:5191/",
+  "commit": "4cf48ac8e25d7b6164bd70e8ff941823a611f797",
+  "method": {
+    "browser": "System Chromium via Playwright, headless",
+    "freshContextPerTest": true,
+    "viewport": "1920x1080 except responsive test",
+    "mocks": "None: speech, media, network responses and clocks unmodified",
+    "scope": "Read-only production app interaction; only isolated browser localStorage mutated; no external writes"
+  },
+  "summary": {
+    "passed": 12,
+    "failed": 1
+  },
+  "results": [
+    {
+      "name": "Three constellations: map, shared list selection, keyboard activation and distinct details",
+      "status": "PASS",
+      "durationMs": 3402,
+      "detail": {
+        "count": 3,
+        "distinctSummaries": [
+          "나란히 빛나는 세 별을 따라, 겨울 하늘의 사냥꾼을 만나보세요.",
+          "국자 모양의 북두칠성에서 시작해 커다란 곰의 모습을 상상해 보세요.",
+          "W 모양으로 반짝이는 다섯 별. 북쪽 하늘에서 만나는 왕비의 이야기예요."
+        ],
+        "keyboard": "Enter selected every map object; list retained selection"
+      }
+    },
+    {
+      "name": "Eight planets: overview/list shared selection, unique details and actual loaded images",
+      "status": "PASS",
+      "durationMs": 4601,
+      "detail": {
+        "planetCount": 8,
+        "uniqueDetailSummaries": 8,
+        "details": [
+          {
+            "name": "수성",
+            "summary": "태양과 가장 가까운 작은 암석 행성. 수많은 충돌구가 오래된 시간을 간직해요.",
+            "image": "/assets/original-planets/mercury.png"
+          },
+          {
+            "name": "금성",
+            "summary": "두꺼운 구름에 둘러싸인 행성. 지구와 크기는 비슷하지만 표면은 아주 뜨거워요.",
+            "image": "/assets/original-planets/venus-clouds.png"
+          },
+          {
+            "name": "지구",
+            "summary": "푸른 바다와 하얀 구름, 그리고 우리가 사는 집. 생명이 확인된 유일한 행성이에요.",
+            "image": "/assets/original-planets/earth.png"
+          },
+          {
+            "name": "화성",
+            "summary": "붉은 먼지와 거대한 화산의 세계. 탐사 로버가 오래전 물의 흔적을 찾아가요.",
+            "image": "/assets/original-planets/mars.png"
+          },
+          {
+            "name": "목성",
+            "summary": "태양계에서 가장 큰 행성. 줄무늬 구름과 거대한 소용돌이가 끊임없이 움직여요.",
+            "image": "/assets/original-planets/jupiter.png"
+          },
+          {
+            "name": "토성",
+            "summary": "얼음과 암석 조각으로 이루어진 아름다운 고리. 멀리서 하나처럼 보이는 작은 세계들이에요.",
+            "image": "/assets/original-planets/saturn.png"
+          },
+          {
+            "name": "천왕성",
+            "summary": "옆으로 누운 듯 자전하는 청록빛 행성. 독특한 기울기가 아주 긴 계절을 만들어요.",
+            "image": "/assets/original-planets/uranus.png"
+          },
+          {
+            "name": "해왕성",
+            "summary": "태양에서 가장 먼 행성. 차가운 대기 속에서 매우 빠른 바람이 불고 있어요.",
+            "image": "/assets/original-planets/neptune.png"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Transcript complete/save idempotence, record note edit/reload/reopen and confirmed deletion",
+      "status": "PASS",
+      "durationMs": 5592,
+      "detail": {
+        "transcriptParagraphs": 18,
+        "storyTitle": "큰곰이 된 칼리스토, 함께 읽는 별빛",
+        "completion": "record completed without audio",
+        "idempotent": "Repeated completion/save preserved one ID and edited note",
+        "delete": "Cancel preserved record; confirm removed it across reload"
+      }
+    },
+    {
+      "name": "Four independent settings toggle state, local persistence and English/Korean language persistence",
+      "status": "PASS",
+      "durationMs": 5103,
+      "detail": {
+        "initial": [
+          true,
+          true,
+          false,
+          true
+        ],
+        "independentSnapshots": [
+          [
+            false,
+            true,
+            false,
+            true
+          ],
+          [
+            false,
+            false,
+            false,
+            true
+          ],
+          [
+            false,
+            false,
+            true,
+            true
+          ],
+          [
+            false,
+            false,
+            true,
+            false
+          ]
+        ],
+        "persisted": {
+          "captions": false,
+          "description": false,
+          "largeText": true,
+          "reducedMotion": false
+        },
+        "languages": "EN persisted on reload; KO returned via settings"
+      }
+    },
+    {
+      "name": "Keyboard settings activation, forward/reverse focus containment, Escape and launcher focus restoration",
+      "status": "PASS",
+      "durationMs": 2028,
+      "detail": {
+        "forwardTabs": 20,
+        "reverseTabs": 20,
+        "restoredFocus": true,
+        "focusStyle": {
+          "outlineStyle": "solid",
+          "outlineWidth": "3px"
+        }
+      }
+    },
+    {
+      "name": "Companion connect, actual shared selection, independent phone preferences, disconnect and single-device completion",
+      "status": "PASS",
+      "durationMs": 4334,
+      "detail": {
+        "sharedObject": "mars",
+        "ledger": "마지막 조작\n휴대폰 시연 화면\n\n명령 순서\n#3",
+        "mainSettingsUnaffected": true,
+        "phonePreferencesRetainedOnReconnect": true,
+        "completedAfterDisconnect": true
+      }
+    },
+    {
+      "name": "Roof constellation/planet switch, actual brightness filter and real ten-second auto exit",
+      "status": "PASS",
+      "durationMs": 14225,
+      "detail": {
+        "switched": [
+          "saturn",
+          "cassiopeia"
+        ],
+        "brightnessValue": 45,
+        "actualFilter": "brightness(0.45)",
+        "realTimerElapsedMs": 10540,
+        "clock": "Native real clock; no emulation"
+      }
+    },
+    {
+      "name": "Developer restriction/permission/unavailable states block roof and offer working transcript alternative",
+      "status": "PASS",
+      "durationMs": 9154,
+      "detail": {
+        "cases": [
+          {
+            "state": "restricted",
+            "roofBlocked": true,
+            "transcriptAvailable": true
+          },
+          {
+            "state": "permission-denied",
+            "roofBlocked": true,
+            "transcriptAvailable": true
+          },
+          {
+            "state": "unsupported",
+            "roofBlocked": true,
+            "transcriptAvailable": true
+          },
+          {
+            "state": "disconnected",
+            "roofBlocked": true,
+            "transcriptAvailable": true
+          },
+          {
+            "state": "stale",
+            "roofBlocked": true,
+            "transcriptAvailable": true
+          }
+        ],
+        "restrictedMapDisabled": true,
+        "directImmersiveRouteGuarded": true
+      }
+    },
+    {
+      "name": "Responsive Korean/English large-text sky, solar, detail, story and settings geometry",
+      "status": "PASS",
+      "durationMs": 12006,
+      "detail": [
+        {
+          "screen": "KO desktop sky",
+          "width": 1920,
+          "scrollWidth": 1920,
+          "brokenImages": [],
+          "offscreenControls": [],
+          "mapLabels": [
+            {
+              "text": "오리온자리ORION",
+              "left": 915.6067504882812,
+              "right": 1067.1224365234375
+            },
+            {
+              "text": "큰곰자리URSA MAJOR",
+              "left": 1465.8421630859375,
+              "right": 1562.6546630859375
+            },
+            {
+              "text": "카시오페이아자리CASSIOPEIA",
+              "left": 224.000732421875,
+              "right": 385.610107421875
+            }
+          ]
+        },
+        {
+          "screen": "KO mobile sky",
+          "width": 390,
+          "scrollWidth": 390,
+          "brokenImages": [],
+          "offscreenControls": [
+            {
+              "tag": "BUTTON",
+              "text": "카시오페이아자리CASSIOPEIA",
+              "artwork": true
+            }
+          ],
+          "mapLabels": [
+            {
+              "text": "오리온자리ORION",
+              "left": 169.85592651367188,
+              "right": 266.3715515136719
+            },
+            {
+              "text": "큰곰자리URSA MAJOR",
+              "left": 226.7741241455078,
+              "right": 272.7741394042969
+            },
+            {
+              "text": "카시오페이아자리CASSIOPEIA",
+              "left": 24.315189361572266,
+              "right": 106.31518936157227
+            }
+          ]
+        },
+        {
+          "screen": "KO mobile large sky",
+          "width": 390,
+          "scrollWidth": 390,
+          "brokenImages": [],
+          "offscreenControls": [
+            {
+              "tag": "BUTTON",
+              "text": "큰곰자리URSA MAJOR",
+              "artwork": true
+            },
+            {
+              "tag": "BUTTON",
+              "text": "카시오페이아자리CASSIOPEIA",
+              "artwork": true
+            }
+          ],
+          "mapLabels": [
+            {
+              "text": "오리온자리ORION",
+              "left": 172.67417907714844,
+              "right": 269.1898193359375
+            },
+            {
+              "text": "큰곰자리URSA MAJOR",
+              "left": 224.99713134765625,
+              "right": 270.99713134765625
+            },
+            {
+              "text": "카시오페이아자리CASSIOPEIA",
+              "left": 26.423385620117188,
+              "right": 108.42338562011719
+            }
+          ]
+        },
+        {
+          "screen": "EN mobile large settings",
+          "width": 390,
+          "scrollWidth": 390,
+          "brokenImages": [],
+          "offscreenControls": [
+            {
+              "tag": "BUTTON",
+              "text": "Ursa MajorURSA MAJOR",
+              "artwork": true
+            },
+            {
+              "tag": "BUTTON",
+              "text": "CassiopeiaCASSIOPEIA",
+              "artwork": true
+            }
+          ],
+          "mapLabels": [
+            {
+              "text": "OrionORION",
+              "left": 173.0888671875,
+              "right": 241.5888671875
+            },
+            {
+              "text": "Ursa MajorURSA MAJOR",
+              "left": 224.46214294433594,
+              "right": 281.368408203125
+            },
+            {
+              "text": "CassiopeiaCASSIOPEIA",
+              "left": 27.449504852294922,
+              "right": 84.93388366699219
+            }
+          ]
+        },
+        {
+          "screen": "EN mobile large sky",
+          "width": 390,
+          "scrollWidth": 390,
+          "brokenImages": [],
+          "offscreenControls": [
+            {
+              "tag": "BUTTON",
+              "text": "Ursa MajorURSA MAJOR",
+              "artwork": true
+            },
+            {
+              "tag": "BUTTON",
+              "text": "CassiopeiaCASSIOPEIA",
+              "artwork": true
+            }
+          ],
+          "mapLabels": [
+            {
+              "text": "OrionORION",
+              "left": 173.0888671875,
+              "right": 241.5888671875
+            },
+            {
+              "text": "Ursa MajorURSA MAJOR",
+              "left": 224.46214294433594,
+              "right": 281.368408203125
+            },
+            {
+              "text": "CassiopeiaCASSIOPEIA",
+              "left": 27.449504852294922,
+              "right": 84.93388366699219
+            }
+          ]
+        },
+        {
+          "screen": "EN mobile large constellation list",
+          "width": 390,
+          "scrollWidth": 390,
+          "brokenImages": [],
+          "offscreenControls": [],
+          "mapLabels": []
+        },
+        {
+          "screen": "EN mobile large solar",
+          "width": 390,
+          "scrollWidth": 390,
+          "brokenImages": [],
+          "offscreenControls": [],
+          "mapLabels": []
+        },
+        {
+          "screen": "EN mobile large detail",
+          "width": 390,
+          "scrollWidth": 390,
+          "brokenImages": [],
+          "offscreenControls": [],
+          "mapLabels": []
+        },
+        {
+          "screen": "EN mobile large story",
+          "width": 390,
+          "scrollWidth": 390,
+          "brokenImages": [],
+          "offscreenControls": [],
+          "mapLabels": []
+        },
+        {
+          "screen": "EN desktop large story",
+          "width": 1920,
+          "scrollWidth": 1920,
+          "brokenImages": [],
+          "offscreenControls": [],
+          "mapLabels": []
+        }
+      ]
+    },
+    {
+      "name": "Mobile English large-text Cassiopeia map button center is free of overlapping view controls",
+      "status": "FAIL",
+      "durationMs": 7712,
+      "detail": "AssertionError [ERR_ASSERTION]: {\"center\":{\"x\":67.89062976837158,\"y\":495.796875},\"centerReceivesPointer\":false,\"interceptorClass\":\"active\",\"interceptorText\":\"Sky view\",\"viewport\":{\"width\":390,\"height\":844},\"actualCenterClick\":\"timed out because view-controls intercept pointer\",\"visibleLabelClick\":true,\"listAlternative\":true}\n\nfalse !== true\n\n    at file:///workspace/submissions/starlight-pleos-2026-11-15/research/final-web-qa.mjs:120:303\n    at async test (file:///workspace/submissions/starlight-pleos-2026-11-15/research/final-web-qa.mjs:21:66)\n    at async file:///workspace/submissions/starlight-pleos-2026-11-15/research/final-web-qa.mjs:116:1"
+    },
+    {
+      "name": "Unmodified recorded narration attempt exposes honest network failure and working transcript fallback",
+      "status": "PASS",
+      "durationMs": 3054,
+      "detail": {
+        "outcome": {
+          "state": "unavailable",
+          "error": "녹음 음성을 불러오지 못했어요. 연결을 확인하거나 전체 대본으로 이어서 감상해 주세요.\n\n이 기기 목소리로 듣기"
+        },
+        "transcriptCompletion": true,
+        "audioMocked": false
+      }
+    },
+    {
+      "name": "Unmodified native speech attempt reports real unavailable state with full transcript remaining usable",
+      "status": "PASS",
+      "durationMs": 2968,
+      "detail": {
+        "capability": {
+          "speechApi": true,
+          "utteranceApi": true,
+          "voices": []
+        },
+        "outcome": {
+          "state": "unavailable",
+          "error": "음성을 재생할 수 없어요. 대본으로 계속 감상할 수 있어요."
+        },
+        "transcriptCompletion": true,
+        "audioMocked": false
+      }
+    },
+    {
+      "name": "Runtime: no uncaught browser page errors",
+      "status": "PASS",
+      "detail": []
+    }
+  ],
+  "runtimeErrors": [],
+  "networkFailures": [
+    {
+      "test": "Three constellations: map, shared list selection, keyboard activation and distinct details",
+      "url": "https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;600;700;800&display=swap",
+      "failure": "net::ERR_TUNNEL_CONNECTION_FAILED"
+    },
+    {
+      "test": "Three constellations: map, shared list selection, keyboard activation and distinct details",
+      "url": "https://resource2.heygen.ai/text_to_speech/cff3015517e543f89dace55e455cbe32/330290724a1b470fb63153f34d4c0183/id=f644be5d843f492caca823a0a0e76b9a.mp3",
+      "failure": "net::ERR_TUNNEL_CONNECTION_FAILED"
+    },
+    {
+      "test": "Three constellations: map, shared list selection, keyboard activation and distinct details",
+      "url": "https://resource2.heygen.ai/text_to_speech/cff3015517e543f89dace55e455cbe32/330290724a1b470fb63153f34d4c0183/id=b608399c9c3d4dd6af2579bd07235a0e.mp3",
+      "failure": "net::ERR_TUNNEL_CONNECTION_FAILED"
+    },
+    {
+      "test": "Three constellations: map, shared list selection, keyboard activation and distinct details",
+      "url": "https://resource2.heygen.ai/text_to_speech/cff3015517e543f89dace55e455cbe32/330290724a1b470fb63153f34d4c0183/id=08e2e6f56b0b49ae85706d218d8ad54f.mp3",
+      "failure": "net::ERR_TUNNEL_CONNECTION_FAILED"
+    },
+    {
+      "test": "Eight planets: overview/list shared selection, unique details and actual loaded images",
+      "url": "https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;600;700;800&display=swap",
+      "failure": "net::ERR_TUNNEL_CONNECTION_FAILED"
+    },
+    {
+      "test": "Eight planets: overview/list shared selection, unique details and actual loaded images",
+      "url": "https://resource2.heygen.ai/text_to_speech/cff3015517e543f89dace55e455cbe32/330290724a1b470fb63153f34d4c0183/id=f644be5d843f492caca823a0a0e76b9a.mp3",
+      "failure": "net::ERR_TUNNEL_CONNECTION_FAILED"
+    },
+    {
+      "test": "Transcript complete/save idempotence, record note edit/reload/reopen and confirmed deletion",
+      "url": "https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;600;700;800&display=swap",
+      "failure": "net::ERR_TUNNEL_CONNECTION_FAILED"
+    },
+    {
+      "test": "Transcript complete/save idempotence, record note edit/reload/reopen and confirmed deletion",
+      "url": "https://resource2.heygen.ai/text_to_speech/cff3015517e543f89dace55e455cbe32/330290724a1b470fb63153f34d4c0183/id=f644be5d843f492caca823a0a0e76b9a.mp3",
+      "failure": "net::ERR_TUNNEL_CONNECTION_FAILED"
+    },
+    {
+      "test": "Transcript complete/save idempotence, record note edit/reload/reopen and confirmed deletion",
+      "url": "https://resource2.heygen.ai/text_to_speech/cff3015517e543f89dace55e455cbe32/330290724a1b470fb63153f34d4c0183/id=b608399c9c3d4dd6af2579bd07235a0e.mp3",
+      "failure": "net::ERR_TUNNEL_CONNECTION_FAILED"
+    },
+    {
+      "test": "Transcript complete/save idempotence, record note edit/reload/reopen and confirmed deletion",
+      "url": "https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;600;700;800&display=swap",
+      "failure": "net::ERR_TUNNEL_CONNECTION_FAILED"
+    },
+    {
+      "test": "Transcript complete/save idempotence, record note edit/reload/reopen and confirmed deletion",
+      "url": "https://resource2.heygen.ai/text_to_speech/cff3015517e543f89dace55e455cbe32/330290724a1b470fb63153f34d4c0183/id=b608399c9c3d4dd6af2579bd07235a0e.mp3",
+      "failure": "net::ERR_TUNNEL_CONNECTION_FAILED"
+    },
+    {
+      "test": "Transcript complete/save idempotence, record note edit/reload/reopen and confirmed deletion",
+      "url": "https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;600;700;800&display=swap",
+      "failure": "net::ERR_TUNNEL_CONNECTION_FAILED"
+    },
+    {
+      "test": "Transcript complete/save idempotence, record note edit/reload/reopen and confirmed deletion",
+      "url": "https://resource2.heygen.ai/text_to_speech/cff3015517e543f89dace55e455cbe32/330290724a1b470fb63153f34d4c0183/id=b608399c9c3d4dd6af2579bd07235a0e.mp3",
+      "failure": "net::ERR_TUNNEL_CONNECTION_FAILED"
+    },
+    {
+      "test": "Four independent settings toggle state, local persistence and English/Korean language persistence",
+      "url": "https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;600;700;800&display=swap",
+      "failure": "net::ERR_TUNNEL_CONNECTION_FAILED"
+    },
+    {
+      "test": "Four independent settings toggle state, local persistence and English/Korean language persistence",
+      "url": "https://resource2.heygen.ai/text_to_speech/cff3015517e543f89dace55e455cbe32/330290724a1b470fb63153f34d4c0183/id=f644be5d843f492caca823a0a0e76b9a.mp3",
+      "failure": "net::ERR_TUNNEL_CONNECTION_FAILED"
+    },
+    {
+      "test": "Four independent settings toggle state, local persistence and English/Korean language persistence",
+      "url": "https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;600;700;800&display=swap",
+      "failure": "net::ERR_TUNNEL_CONNECTION_FAILED"
+    },
+    {
+      "test": "Four independent settings toggle state, local persistence and English/Korean language persistence",
+      "url": "https://resource2.heygen.ai/text_to_speech/cff3015517e543f89dace55e455cbe32/330290724a1b470fb63153f34d4c0183/id=f644be5d843f492caca823a0a0e76b9a.mp3",
+      "failure": "net::ERR_TUNNEL_CONNECTION_FAILED"
+    },
+    {
+      "test": "Four independent settings toggle state, local persistence and English/Korean language persistence",
+      "url": "https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;600;700;800&display=swap",
+      "failure": "net::ERR_TUNNEL_CONNECTION_FAILED"
+    },
+    {
+      "test": "Four independent settings toggle state, local persistence and English/Korean language persistence",
+      "url": "https://resource2.heygen.ai/text_to_speech/cff3015517e543f89dace55e455cbe32/330290724a1b470fb63153f34d4c0183/id=f644be5d843f492caca823a0a0e76b9a.mp3",
+      "failure": "net::ERR_TUNNEL_CONNECTION_FAILED"
+    },
+    {
+      "test": "Keyboard settings activation, forward/reverse focus containment, Escape and launcher focus restoration",
+      "url": "https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;600;700;800&display=swap",
+      "failure": "net::ERR_TUNNEL_CONNECTION_FAILED"
+    },
+    {
+      "test": "Keyboard settings activation, forward/reverse focus containment, Escape and launcher focus restoration",
+      "url": "https://resource2.heygen.ai/text_to_speech/cff3015517e543f89dace55e455cbe32/330290724a1b470fb63153f34d4c0183/id=f644be5d843f492caca823a0a0e76b9a.mp3",
+      "failure": "net::ERR_TUNNEL_CONNECTION_FAILED"
+    },
+    {
+      "test": "Companion connect, actual shared selection, independent phone preferences, disconnect and single-device completion",
+      "url": "https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;600;700;800&display=swap",
+      "failure": "net::ERR_TUNNEL_CONNECTION_FAILED"
+    },
+    {
+      "test": "Companion connect, actual shared selection, independent phone preferences, disconnect and single-device completion",
+      "url": "https://resource2.heygen.ai/text_to_speech/cff3015517e543f89dace55e455cbe32/330290724a1b470fb63153f34d4c0183/id=f644be5d843f492caca823a0a0e76b9a.mp3",
+      "failure": "net::ERR_TUNNEL_CONNECTION_FAILED"
+    },
+    {
+      "test": "Roof constellation/planet switch, actual brightness filter and real ten-second auto exit",
+      "url": "https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;600;700;800&display=swap",
+      "failure": "net::ERR_TUNNEL_CONNECTION_FAILED"
+    },
+    {
+      "test": "Roof constellation/planet switch, actual brightness filter and real ten-second auto exit",
+      "url": "https://resource2.heygen.ai/text_to_speech/cff3015517e543f89dace55e455cbe32/330290724a1b470fb63153f34d4c0183/id=f644be5d843f492caca823a0a0e76b9a.mp3",
+      "failure": "net::ERR_TUNNEL_CONNECTION_FAILED"
+    },
+    {
+      "test": "Roof constellation/planet switch, actual brightness filter and real ten-second auto exit",
+      "url": "https://resource2.heygen.ai/text_to_speech/cff3015517e543f89dace55e455cbe32/330290724a1b470fb63153f34d4c0183/id=f644be5d843f492caca823a0a0e76b9a.mp3",
+      "failure": "net::ERR_TUNNEL_CONNECTION_FAILED"
+    },
+    {
+      "test": "Roof constellation/planet switch, actual brightness filter and real ten-second auto exit",
+      "url": "https://resource2.heygen.ai/text_to_speech/cff3015517e543f89dace55e455cbe32/330290724a1b470fb63153f34d4c0183/id=08e2e6f56b0b49ae85706d218d8ad54f.mp3",
+      "failure": "net::ERR_TUNNEL_CONNECTION_FAILED"
+    },
+    {
+      "test": "Developer restriction/permission/unavailable states block roof and offer working transcript alternative",
+      "url": "https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;600;700;800&display=swap",
+      "failure": "net::ERR_TUNNEL_CONNECTION_FAILED"
+    },
+    {
+      "test": "Developer restriction/permission/unavailable states block roof and offer working transcript alternative",
+      "url": "https://resource2.heygen.ai/text_to_speech/cff3015517e543f89dace55e455cbe32/330290724a1b470fb63153f34d4c0183/id=f644be5d843f492caca823a0a0e76b9a.mp3",
+      "failure": "net::ERR_TUNNEL_CONNECTION_FAILED"
+    },
+    {
+      "test": "Responsive Korean/English large-text sky, solar, detail, story and settings geometry",
+      "url": "https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;600;700;800&display=swap",
+      "failure": "net::ERR_TUNNEL_CONNECTION_FAILED"
+    },
+    {
+      "test": "Responsive Korean/English large-text sky, solar, detail, story and settings geometry",
+      "url": "https://resource2.heygen.ai/text_to_speech/cff3015517e543f89dace55e455cbe32/330290724a1b470fb63153f34d4c0183/id=f644be5d843f492caca823a0a0e76b9a.mp3",
+      "failure": "net::ERR_TUNNEL_CONNECTION_FAILED"
+    },
+    {
+      "test": "Mobile English large-text Cassiopeia map button center is free of overlapping view controls",
+      "url": "https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;600;700;800&display=swap",
+      "failure": "net::ERR_TUNNEL_CONNECTION_FAILED"
+    },
+    {
+      "test": "Mobile English large-text Cassiopeia map button center is free of overlapping view controls",
+      "url": "https://resource2.heygen.ai/text_to_speech/cff3015517e543f89dace55e455cbe32/330290724a1b470fb63153f34d4c0183/id=f644be5d843f492caca823a0a0e76b9a.mp3",
+      "failure": "net::ERR_TUNNEL_CONNECTION_FAILED"
+    },
+    {
+      "test": "Unmodified recorded narration attempt exposes honest network failure and working transcript fallback",
+      "url": "https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;600;700;800&display=swap",
+      "failure": "net::ERR_TUNNEL_CONNECTION_FAILED"
+    },
+    {
+      "test": "Unmodified recorded narration attempt exposes honest network failure and working transcript fallback",
+      "url": "https://resource2.heygen.ai/text_to_speech/cff3015517e543f89dace55e455cbe32/330290724a1b470fb63153f34d4c0183/id=f644be5d843f492caca823a0a0e76b9a.mp3",
+      "failure": "net::ERR_TUNNEL_CONNECTION_FAILED"
+    },
+    {
+      "test": "Unmodified recorded narration attempt exposes honest network failure and working transcript fallback",
+      "url": "https://resource2.heygen.ai/text_to_speech/cff3015517e543f89dace55e455cbe32/330290724a1b470fb63153f34d4c0183/id=f644be5d843f492caca823a0a0e76b9a.mp3",
+      "failure": "net::ERR_TUNNEL_CONNECTION_FAILED"
+    },
+    {
+      "test": "Unmodified native speech attempt reports real unavailable state with full transcript remaining usable",
+      "url": "https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;600;700;800&display=swap",
+      "failure": "net::ERR_TUNNEL_CONNECTION_FAILED"
+    },
+    {
+      "test": "Unmodified native speech attempt reports real unavailable state with full transcript remaining usable",
+      "url": "https://resource2.heygen.ai/text_to_speech/cff3015517e543f89dace55e455cbe32/330290724a1b470fb63153f34d4c0183/id=f644be5d843f492caca823a0a0e76b9a.mp3",
+      "failure": "net::ERR_TUNNEL_CONNECTION_FAILED"
+    }
+  ],
+  "limits": [
+    "Browser QA verifies rendered app state and storage, not physical vehicle SDKs, remote companion pairing or roof hardware.",
+    "Responsive first probe flagged rotated map artwork boxes crossing viewport edges; inspection confirmed all constellation labels remain inside and all targets remain clickable. Formal geometry checks distinguish artwork from regular controls. See responsive-inspection.json.",
+    "Audio output is not captured or heard by this run. Native speech exposes zero voices and its real unavailable fallback is verified; external recorded MP3 and Google Fonts requests encounter ERR_TUNNEL_CONNECTION_FAILED in this environment. Full transcripts and all local planet images are verified."
+  ],
+  "findings": [
+    {
+      "id": "MOBILE_EN_LARGE_MAP_CENTER_OVERLAP",
+      "severity": "minor",
+      "status": "open",
+      "reproduction": [
+        "Fresh production page; viewport 390×844",
+        "Settings: enable Large text, choose English, close settings",
+        "Click the center of the Cassiopeia map button (approximately x=67.89,y=495.80)"
+      ],
+      "observed": "Sky view control overlaps and intercepts the central map-button hit area. An actual normal click timed out with interception, and document.elementFromPoint confirms Sky view at that point.",
+      "workingAlternatives": [
+        "Normal click on Cassiopeia visible label succeeds",
+        "List view selection succeeds",
+        "Desktop map keyboard selection succeeds"
+      ],
+      "sourceSuspected": "Mobile large-text map uses fixed top inset while relative view controls follow wrapped heading text.",
+      "scope": "Partial pointer target overlap; content remains reachable. App source was not changed.",
+      "evidence": "mobile-map-pointer-inspection.json"
+    }
+  ],
+  "environmentLimits": {
+    "speech": {
+      "speechApi": true,
+      "utteranceApi": true,
+      "availableVoices": 0,
+      "realPlayOutcome": "unavailable message; full transcript completion verified"
+    },
+    "remoteMedia": {
+      "blockedDomains": [
+        "fonts.googleapis.com",
+        "resource2.heygen.ai"
+      ],
+      "browserFailure": "net::ERR_TUNNEL_CONNECTION_FAILED",
+      "actualRecordedPlayOutcome": "unavailable error with device-voice alternative and usable full transcript",
+      "audibleOutputVerified": false
+    },
+    "physicalVehicleOrRemotePairingVerified": false
+  },
+  "responsiveInspection": [
+    {
+      "label": "KO mobile sky",
+      "width": 390,
+      "scrollWidth": 390,
+      "labels": [
+        {
+          "text": "오리온자리ORION",
+          "left": 169.85592651367188,
+          "right": 266.3715515136719
+        },
+        {
+          "text": "큰곰자리URSA MAJOR",
+          "left": 226.7741241455078,
+          "right": 272.7741394042969
+        },
+        {
+          "text": "카시오페이아자리CASSIOPEIA",
+          "left": 24.315189361572266,
+          "right": 106.31518936157227
+        }
+      ],
+      "offscreenControls": [
+        {
+          "tag": "BUTTON",
+          "text": "카시오페이아자리CASSIOPEIA",
+          "rect": {
+            "left": -7.392669677734375,
+            "right": 143.17391967773438,
+            "width": 150.56658935546875
+          },
+          "class": "sky-object sky-cassiopeia ",
+          "canvas": "sky-map",
+          "canvasOverflow": "visible"
+        }
+      ],
+      "broken": []
+    },
+    {
+      "label": "KO mobile large sky",
+      "width": 390,
+      "scrollWidth": 390,
+      "labels": [
+        {
+          "text": "오리온자리ORION",
+          "left": 172.67417907714844,
+          "right": 269.1898193359375
+        },
+        {
+          "text": "큰곰자리URSA MAJOR",
+          "left": 224.99713134765625,
+          "right": 270.99713134765625
+        },
+        {
+          "text": "카시오페이아자리CASSIOPEIA",
+          "left": 26.423385620117188,
+          "right": 108.42338562011719
+        }
+      ],
+      "offscreenControls": [
+        {
+          "tag": "BUTTON",
+          "text": "큰곰자리URSA MAJOR",
+          "rect": {
+            "left": 226.22743225097656,
+            "right": 393.3819580078125,
+            "width": 167.15452575683594
+          },
+          "class": "sky-object sky-ursa-major ",
+          "canvas": "sky-map",
+          "canvasOverflow": "visible"
+        },
+        {
+          "tag": "BUTTON",
+          "text": "카시오페이아자리CASSIOPEIA",
+          "rect": {
+            "left": -9.50086498260498,
+            "right": 145.28212451934814,
+            "width": 154.78298950195312
+          },
+          "class": "sky-object sky-cassiopeia ",
+          "canvas": "sky-map",
+          "canvasOverflow": "visible"
+        }
+      ],
+      "broken": []
+    },
+    {
+      "label": "EN mobile large settings",
+      "width": 390,
+      "scrollWidth": 390,
+      "labels": [
+        {
+          "text": "OrionORION",
+          "left": 173.0888671875,
+          "right": 241.5888671875
+        },
+        {
+          "text": "Ursa MajorURSA MAJOR",
+          "left": 224.46214294433594,
+          "right": 281.368408203125
+        },
+        {
+          "text": "CassiopeiaCASSIOPEIA",
+          "left": 27.449504852294922,
+          "right": 84.93388366699219
+        }
+      ],
+      "offscreenControls": [
+        {
+          "tag": "BUTTON",
+          "text": "Ursa MajorURSA MAJOR",
+          "rect": {
+            "left": 226.22743225097656,
+            "right": 393.3819580078125,
+            "width": 167.15452575683594
+          },
+          "class": "sky-object sky-ursa-major ",
+          "canvas": "sky-map",
+          "canvasOverflow": "visible"
+        },
+        {
+          "tag": "BUTTON",
+          "text": "CassiopeiaCASSIOPEIA",
+          "rect": {
+            "left": -9.50086498260498,
+            "right": 145.28212451934814,
+            "width": 154.78298950195312
+          },
+          "class": "sky-object sky-cassiopeia ",
+          "canvas": "sky-map",
+          "canvasOverflow": "visible"
+        }
+      ],
+      "broken": []
+    },
+    {
+      "label": "EN mobile large sky",
+      "width": 390,
+      "scrollWidth": 390,
+      "labels": [
+        {
+          "text": "OrionORION",
+          "left": 173.0888671875,
+          "right": 241.5888671875
+        },
+        {
+          "text": "Ursa MajorURSA MAJOR",
+          "left": 224.46214294433594,
+          "right": 281.368408203125
+        },
+        {
+          "text": "CassiopeiaCASSIOPEIA",
+          "left": 27.449504852294922,
+          "right": 84.93388366699219
+        }
+      ],
+      "offscreenControls": [
+        {
+          "tag": "BUTTON",
+          "text": "Ursa MajorURSA MAJOR",
+          "rect": {
+            "left": 226.22743225097656,
+            "right": 393.3819580078125,
+            "width": 167.15452575683594
+          },
+          "class": "sky-object sky-ursa-major ",
+          "canvas": "sky-map",
+          "canvasOverflow": "visible"
+        },
+        {
+          "tag": "BUTTON",
+          "text": "CassiopeiaCASSIOPEIA",
+          "rect": {
+            "left": -9.50086498260498,
+            "right": 145.28212451934814,
+            "width": 154.78298950195312
+          },
+          "class": "sky-object sky-cassiopeia ",
+          "canvas": "sky-map",
+          "canvasOverflow": "visible"
+        }
+      ],
+      "broken": []
+    },
+    {
+      "label": "EN mobile large solar overview",
+      "width": 390,
+      "scrollWidth": 390,
+      "labels": [],
+      "offscreenControls": [
+        {
+          "tag": "BUTTON",
+          "text": "Sun",
+          "rect": {
+            "left": -50,
+            "right": 80,
+            "width": 130
+          },
+          "class": "solar-sun",
+          "canvas": "solar-model",
+          "canvasOverflow": "hidden"
+        }
+      ],
+      "broken": []
+    },
+    {
+      "label": "EN mobile large solar list",
+      "width": 390,
+      "scrollWidth": 390,
+      "labels": [],
+      "offscreenControls": [],
+      "broken": []
+    },
+    {
+      "label": "EN mobile large detail",
+      "width": 390,
+      "scrollWidth": 390,
+      "labels": [],
+      "offscreenControls": [],
+      "broken": []
+    },
+    {
+      "label": "EN mobile large story",
+      "width": 390,
+      "scrollWidth": 390,
+      "labels": [],
+      "offscreenControls": [],
+      "broken": []
+    },
+    {
+      "label": "EN desktop large story",
+      "width": 1920,
+      "scrollWidth": 1920,
+      "labels": [],
+      "offscreenControls": [],
+      "broken": []
+    }
+  ],
+  "networkFailureCounts": {
+    "net::ERR_TUNNEL_CONNECTION_FAILED": 38
+  }
+}

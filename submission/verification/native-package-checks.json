@@ -1,0 +1,19 @@
+{
+  "apk_sha256": "4631d1032cef8a08c9b4e7e1d52cd793f9780733da825c221cb970f1a8b11611",
+  "metadata": [
+    "package: name='com.starlight.pleos' versionCode='1' versionName='1.0.0-contest' platformBuildVersionName='16' platformBuildVersionCode='36' compileSdkVersion='36' compileSdkVersionCodename='16'",
+    "sdkVersion:'26'",
+    "targetSdkVersion:'35'",
+    "uses-permission: name='android.permission.INTERNET'",
+    "uses-permission: name='com.starlight.pleos.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION'",
+    "application-label:'별빛 드라이브'",
+    "launchable-activity: name='com.starlight.pleos.MainActivity'  label='' icon=''"
+  ],
+  "debuggable": false,
+  "zip_integrity": true,
+  "web_index_matches_dist": true,
+  "approved_web_icon_matches": true,
+  "native_foreground_padded_for_adaptive_safe_region": true,
+  "signing_material_in_apk": false,
+  "asset_entries": 63
+}

@@ -1,0 +1,81 @@
+{
+  "checked_utc": "2026-11-15T08:20:59.398902+00:00",
+  "apk": {
+    "path": "apk/starlight-pleos-release.apk",
+    "bytes": 37243664,
+    "sha256": "4631d1032cef8a08c9b4e7e1d52cd793f9780733da825c221cb970f1a8b11611"
+  },
+  "scope": "AOSP Android16/API36 x86_64, stockWebView133.0.6943.137, softwareTCG/SwiftShader. NOT Pleos/Automotive/physical-vehicle validation.",
+  "installation": {
+    "status": "PASS",
+    "returncode": 0,
+    "stdout": "Performing Push Install\nSuccess\n",
+    "elapsed_seconds": 228.27,
+    "evidence": "native-install-final.json"
+  },
+  "runtime": {
+    "status": "NOT VERIFIED",
+    "service_ui_painted": false,
+    "flows_completed": false,
+    "offline_mode_configured": true,
+    "offline_ui_verified": false,
+    "observed_app_failure": {
+      "process": "com.starlight.pleos",
+      "pid": 3946,
+      "signal": "SIGTRAP(5),code128",
+      "observed_utc": "2026-11-15T08:06:00.916+00:00",
+      "native_frame": "libwebviewchromium.so pc0x249c840",
+      "warm_retry": "am start timed out; PID4936 later absent; exit cause not separately captured"
+    },
+    "control": {
+      "package": "org.chromium.webview_shell",
+      "same_native_frame": true,
+      "observed_crashes": [
+        {
+          "pid": 5357,
+          "utc": "2026-11-15T08:13:46.083+00:00",
+          "signal": "SIGTRAP(5),code128"
+        },
+        {
+          "pid": 5644,
+          "utc": "2026-11-15T08:15:35.718+00:00",
+          "signal": "SIGTRAP(5),code128",
+          "native_frame": "libwebviewchromium.so pc0x249c840"
+        }
+      ],
+      "final_trial": "animations all0, QuickstepdialogWait, freshstocklocalHTML; stillstarttimeout/nativeSplash, noHTMLpaint"
+    },
+    "os_observations": [
+      "Quickstep global ANR dialog",
+      "system_server restarted; phone/settings DeadSystemException",
+      "LatinIME/Bluetooth native SIGABRT",
+      "UiAutomation.connect timed out"
+    ],
+    "exact_root_cause": "Undetermined; same stock WebView native failure reproduced outside the submitted app. Do not assert GPU/CPU root cause or real-device app failure from this test."
+  },
+  "cpu_flags": {
+    "sse": true,
+    "sse2": true,
+    "pni": true,
+    "ssse3": true,
+    "sse4_1": true,
+    "sse4_2": true,
+    "avx": false,
+    "avx2": false,
+    "f16c": false
+  },
+  "remaining_required_checks": [
+    "Hardware-accelerated Pleos Connect emulator launch/render/flow checks",
+    "Actual or representative Android device launch/render/flow checks",
+    "Native SDK permission/capability integration checks separately"
+  ],
+  "diagnostic_images_not_service_screenshots": true,
+  "evidence": [
+    "native-app-firstlaunch-logcat.txt",
+    "native-app-crash-logcat.txt",
+    "native-webview-control.json",
+    "native-control-crash-logcat.txt",
+    "native-control-final.json",
+    "native-control-final-crash.txt"
+  ]
+}

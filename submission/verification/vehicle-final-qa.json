@@ -1,0 +1,55 @@
+{
+  "method": "Actual production UI + rendered developer controls; no service imports, speech/media/clock mocks",
+  "results": [
+    {
+      "name": "Explicit demo startup gates controls",
+      "status": "PASS",
+      "detail": {
+        "source": "actual rendered demo UI"
+      }
+    },
+    {
+      "name": "Permission-denied readback gates actual controls",
+      "status": "PASS",
+      "detail": {
+        "denied": true,
+        "restored": true
+      }
+    },
+    {
+      "name": "Rejected request preserves previous applied value; rendered retry succeeds",
+      "status": "PASS",
+      "detail": {
+        "previous": "현재 반영된 시연 값\n앞자리\n\n22°C · 풍량 2단\n\n켜짐 · 외기 유입",
+        "applied": "현재 반영된 시연 값\n앞자리\n\n22.5°C · 풍량 2단\n\n켜짐 · 외기 유입"
+      }
+    },
+    {
+      "name": "Timeout preserves previous applied value; rendered retry succeeds",
+      "status": "PASS",
+      "detail": {
+        "previous": "현재 반영된 시연 값\n앞자리\n\n22.5°C · 풍량 2단\n\n켜짐 · 외기 유입",
+        "applied": "현재 반영된 시연 값\n앞자리\n\n23°C · 풍량 2단\n\n켜짐 · 외기 유입"
+      }
+    },
+    {
+      "name": "Unsupported rear-right window leaves supported peer usable",
+      "status": "PASS",
+      "detail": {
+        "rearRightUnsupported": true,
+        "frontLeftAvailable": true
+      }
+    },
+    {
+      "name": "Driving policy gates vehicle command UI",
+      "status": "PASS",
+      "detail": {
+        "restricted": true
+      }
+    }
+  ],
+  "summary": {
+    "passed": 6,
+    "failed": 0
+  }
+}
