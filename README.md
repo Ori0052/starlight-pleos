@@ -23,7 +23,10 @@ Node.js 22 LTS와 npm을 사용합니다. `.github/workflows/build.yml`은 GitHu
 - 설치·빌드·서명 안내: [Android README](android/README.md)
 - 실제 네이티브 검증 결과: [BUILD_VERIFICATION.md](android/BUILD_VERIFICATION.md)
 - 제출 조건과 공식 근거: [CONTEST_SUBMISSION_RULES.md](docs/CONTEST_SUBMISSION_RULES.md)
-- 실제 웹 검수·캡처·시연 자료는 `submission/`에서 제공합니다. 개인정보와 동의·서명용 접수양식은 공개 저장소에 넣지 않습니다.
+- [실제 웹 시연 영상 — 2분 52.4초](submission/video/STARLIGHT_PLEOS_demo.mp4?raw=true)
+- [수정 기획서 PDF — 실제 웹 캡처 포함](submission/documents/STARLIGHT_PLEOS_planning_with_actual_web.pdf)
+- [실제 웹 검수·캡처·시연 자료](submission/)
+- 개인정보와 동의·서명용 접수양식은 공개 저장소에 넣지 않습니다.
 
 ```sh
 adb install -r apk/starlight-pleos-release.apk

@@ -1,0 +1,50 @@
+{
+  "checked_at_utc": "2026-11-15T08:30:33.059911+00:00",
+  "original_sha256": "64ddb97b5dc7fda344220db49d071b838b66c80b043a3ebfb10e9c3c1dcceece",
+  "original_pages_preserved": 16,
+  "original_page_render_checks": [
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true
+  ],
+  "official_question_order_preserved": true,
+  "personal_member_table_unchanged": true,
+  "consent_signature_table_unchanged": true,
+  "documents": [
+    {
+      "filename": "STARLIGHT_PLEOS_actual_implementation.docx",
+      "size_bytes": 16013624,
+      "sha256": "7fafdf89d1a610676bf9b4ee61bdc0cfe051e34b763d6460cab58bc62f7291e0"
+    },
+    {
+      "filename": "STARLIGHT_PLEOS_actual_implementation.pdf",
+      "size_bytes": 2681259,
+      "sha256": "b8c562611044849374fa741c7a17d73d08cb769246db1fd8bfc85cd782698173",
+      "pages": 21,
+      "footer_only_pages": [],
+      "text_outside_page": []
+    },
+    {
+      "filename": "STARLIGHT_PLEOS_planning_with_actual_web.pdf",
+      "size_bytes": 6091787,
+      "sha256": "26a8473dff9c4455beb96215d3d79af257117d195613be71c4b95c013c7ea331",
+      "pages": 38,
+      "footer_only_pages": [],
+      "text_outside_page": []
+    }
+  ],
+  "private_form_omitted": true
+}
